@@ -123,9 +123,11 @@ I have a strong foundation in programming languages like Python, Django, C, and 
 
 Here are some of the projects I've worked on:
 
-| Project Title 1 | Project Title 2 |
+| Library Management System | Online Course School |
 | ---------------- | ---------------- |
-| ![Project 1](https://via.placeholder.com/300x150)  <!-- Replace with your project image URL -->  <br>  **Description**: A brief description of your project goes here. Highlight the key features and technologies used.  <br>  **Technologies Used**: HTML, CSS, JavaScript  <br>  **Link**: [View Project](https://github.com/username/project1) | ![Project 2](https://via.placeholder.com/300x150)  <!-- Replace with your project image URL -->  <br>  **Description**: A brief description of your project goes here. Highlight the key features and technologies used.  <br>  **Technologies Used**: Python, Django, REST API  <br>  **Link**: [View Project](https://github.com/username/project2) |
+| ![Project 1]([https://via.placeholder.com](https://i.ibb.co.com/Pxm4pBp/ae3a7513-d1d6-4a91-b56b-9925b857fea1.png
+https://i.ibb.co.com/qMhcXzP/all-devices-black.png
+https://i.ibb.co.com/Q6vcrjq/77912647-e7bb-46fa-ab03-3155bd34d828.png)/300x150)  <!-- Replace with your project image URL -->  <br>  **Description**: A brief description of your project goes here. Highlight the key features and technologies used.  <br>  **Technologies Used**: HTML, CSS, JavaScript  <br>  **Link**: [View Project](https://github.com/username/project1) | ![Project 2](https://via.placeholder.com/300x150)  <!-- Replace with your project image URL -->  <br>  **Description**: A brief description of your project goes here. Highlight the key features and technologies used.  <br>  **Technologies Used**: Python, Django, REST API  <br>  **Link**: [View Project](https://github.com/username/project2) |
 | ---------------- | ---------------- |
 | Project Title 3 | Project Title 4 |
 | ![Project 3](https://via.placeholder.com/300x150)  <!-- Replace with your project image URL -->  <br>  **Description**: A brief description of your project goes here. Highlight the key features and technologies used.  <br>  **Technologies Used**: React, Node.js  <br>  **Link**: [View Project](https://github.com/username/project3) | ![Project 4](https://via.placeholder.com/300x150)  <!-- Replace with your project image URL -->  <br>  **Description**: A brief description of your project goes here. Highlight the key features and technologies used.  <br>  **Technologies Used**: Java, Spring Boot  <br>  **Link**: [View Project](https://github.com/username/project4) |
