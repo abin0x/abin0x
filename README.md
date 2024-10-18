@@ -134,8 +134,14 @@
 
 
 
-### Competitive Programming Profiles
+## 👨‍💻 Competitive Programming Profiles
+
+Here are my competitive programming profiles where you can find my activity and achievements!
 
 [![Codeforces](https://img.shields.io/badge/Codeforces-FF4B4B?style=for-the-badge&logo=Codeforces&logoColor=white)](https://codeforces.com/profile/abin0x)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=white)](https://leetcode.com/abin0x)
+
+### 🔗 My Profiles:
+- **Codeforces**: [abin0x](https://codeforces.com/profile/abin0x)
+- **LeetCode**: [abin0x](https://leetcode.com/abin0x)
 
