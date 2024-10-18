@@ -4,12 +4,6 @@
   <a href="https://bento.me/abin0x">
    <img width="100%" src="https://cardivo.vercel.app/api?name=Mahmudul%20Hasan%20Abin&description=👋%20Hi,%20I’m%20Mahmudul%20Hasan%20Abin,%20a%20Junior%20Python%20Developer%20from%20Hajee%20Mohammad%20Danesh%20Science%20and%20Technology%20University,%20Dinajpur.%20I%20have%20a%20strong%20foundation%20in%20programming%20languages%20like%20Python,%20Django,%20C,%20and%20C++,%20along%20with%20web%20technologies%20including%20HTML,%20CSS,%20and%20JavaScript.%20I%20am%20passionate%20about%20writing%20clean,%20efficient%20code%20and%20continuously%20learning%20new%20technologies.&image=https%3A%2F%2Fi.ibb.co.com%2FLNKSSnx%2Fprofile-2.png&backgroundColor=%23ecf0f1&colorPattern=%23eaeaea&youtube=abin0x&instagram=abin0x&linkedin=MahmudulHasanAbin&github=abin0x&twitter=abin0x" alt="Mahmudul Hasan Abin's Card" />
 
-
-👋 Hi, I’m Mahmudul Hasan Abin, a Junior Python Developer from Hajee Mohammad Danesh Science and Technology University, Dinajpur.
-
-I have a strong foundation in programming languages like Python, Django, C, and C++, along with web technologies including HTML, CSS, and JavaScript. I am passionate about writing clean, efficient code and continuously learning new technologies.
-
-  </a>
 </div>
 <h1 align="center">👋 Hello, I'm Mahmudul Hasan Abin!</h1>
 
