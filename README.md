@@ -131,3 +131,154 @@
 </p>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=110&section=footer" width="100%">
+
+### Top Repositories
+<div align="center">
+  <table>
+    <tr>
+      <td>
+        <a href="https://github.com/abin0x/fast-gemini-nano">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=abin0x&repo=fast-gemini-nano&theme=highcontrast&hide_border=true&border_radius=15" />
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/abin0x/Weather-3d-ai-app.git">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=abin0x&repo=Weather-3d-ai-app&theme=highcontrast&hide_border=true&border_radius=15" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/abin0x/moviedjangoai">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=abin0x&repo=moviedjangoai&theme=highcontrast&hide_border=true&border_radius=15" />
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/abin0x/speech-to-text.git">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=abin0x&repo=speech-to-text&theme=highcontrast&hide_border=true&border_radius=15" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/abin0x/SmolLM">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=abin0x&repo=SmolLM&theme=highcontrast&hide_border=true&border_radius=15" />
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/abin0x/Llama-3.2_running_locally">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=abin0x&repo=Llama-3.2_running_locally&theme=highcontrast&hide_border=true&border_radius=15" />
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+### GitHub Contribution Chart
+<a href="https://github.com/abin0x">
+    <img src="https://ghchart.rshah.org/abin0x" alt="abin0x's GitHub Contribution Chart">
+</a>
+
+
+<details>
+  <summary style="font-size: 1.17em; font-weight: bold;">
+    <img src="https://github.com/SP-XD/SP-XD/blob/main/images/lightning.gif?raw=true" width="10" />&nbsp;&nbsp;Git Stats Summary&nbsp;&nbsp;<img src="https://github.com/SP-XD/SP-XD/blob/main/images/lightning.gif?raw=true" width="10" />
+  </summary>
+  
+  <img src="https://myreadme.vercel.app/api/embed/abin0x?panels=userstatistics,toprepositories,toplanguages,commitgraph" alt="abin0x's GitHub Stats">
+      <img src="https://github-readme-bento.vercel.app/stats/abin0x?theme=dark" alt="abin0x's GitHub Stats">
+      <img src="https://stats.dooboo.io/api/github-stats-advanced?login=abin0x" alt="Advanced GitHub Stats for abin0x" width="400">
+</details>
+
+<br>
+
+### abin0x/README.md activity
+<img width="100%" src="https://repobeats.axiom.co/api/embed/48c98af9cae40b4ae2cf354a0f544a52eb743a9f.svg" alt="Repobeats analytics" title="Repobeats analytics image" />
+
+[![Forkers repo roster for @abin0x/abin0x](https://reporoster.com/forks/dark/abin0x/abin0x)](https://github.com/abin0x/abin0x/network/members)
+
+[![Repography](https://reporoster.com/stars/dark/abin0x/abin0x)](https://github.com/abin0x/abin0x)
+
+<details>
+  <summary><img src="https://github.com/SP-XD/SP-XD/blob/main/images/lightning.gif?raw=true" width="10" />&nbsp;&nbsp;GitHub Star History for abin0x&nbsp;&nbsp;<img src="https://github.com/SP-XD/SP-XD/blob/main/images/lightning.gif?raw=true" width="12" /></summary>
+
+  <h2>Star History Chart</h2>
+  <a href="https://star-history.com/#abin0x/abin0x&Date">
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=abin0x/abin0x&type=Date&theme=dark" />
+  </a>
+</details>
+
+<br>
+<details>
+  <summary style="font-size: 1.17em; font-weight: bold;">🏆 GitHub Profile Trophy</summary>
+  <br>
+    <img src="https://github-profile-trophy.vercel.app/?username=abin0x&theme=radical&no-frame=false&no-bg=false&margin-w=4" alt="GitHub Profile Trophy">
+  <img src="https://stats.dooboo.io/api/github-trophies?login=abin0x" alt="GitHub Trophies for abin0x">
+</details>
+
+</div>
+
+<br>
+
+# Multiple Pathways to Innovation: Explore My SaaS Products
+
+<br>
+<br>
+
+## 🍁 MapleLawAI: Your Comprehensive Legal Companion
+
+<a href="https://maplelawai.com">View Demo</a>
+
+<table>
+  <tr>
+    <td>
+      <a href="https://maplelawai.com">
+        <img src="/saasimages/Screenshot%202024-09-25%20200423.png" width="100%" alt="Empowering Legal Access">
+      </a>
+    </td>
+    <td>
+      <a href="https://maplelawai.com">
+        <img src="/saasimages/Screenshot%202024-09-25%20202326.png" width="100%" alt="User-Friendly Interface">
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p><strong>Welcome to 🍁 <a href="https://maplelawai.com">MapleLawAI</a>,</strong> your all-in-one AI-powered legal tool designed to support Canadian citizens, lawyers, immigrants, law students, and small businesses. Imagine a world where legal barriers no longer exist—where access to legal knowledge and services is a right for every Canadian, regardless of their background or financial standing. This is not merely a vision; it is the reality 🍁MapleLawAI is creating.</p>
+      <p>🍁<strong>MapleLawAI</strong> is an avant-garde platform set to revolutionize the legal sector in Canada. Developed for both clients and legal professionals, this platform stands as a beacon of innovation, efficiency, and accessibility. By leveraging the most advanced Large Language Models (LLMs) and a comprehensive vector database containing all Canadian legal documents, MapleLawAI ensures access to the most accurate and up-to-date legal information.</p>
+      <p>The Next.js application, styled with ShadCN Tailwind CSS, offers a seamless and intuitive user experience. Integrated with Clerk for secure authentication and powered by the Vercel AI SDK with edge runtime capabilities, MapleLawAI delivers swift AI responses and reliable performance. Whether researching case law, preparing for court, or seeking legal advice, MapleLawAI serves as a trusted partner.</p>
+      <p>The development does not stop here. MapleLawAI is continually evolving with future features such as a virtual courthouse, where arguments can be presented and a virtual judge delivers justice. The platform will also analyze case law to provide statistics and insightful answers, complemented by comprehensive dashboards and a robust research platform. Additionally, there are plans to expand globally with specialized legal AI tools including Egale Legal AI for the USA, JusticeMate AI for Australia, RedBusLaw AI for the UK, MaoriJusticeAI for New Zealand, and FrankfurtLegalBot for Germany.</p>
+    </td>
+  </tr>
+</table>
+
+<details>
+  <summary><strong>Features and Highlights</strong></summary>
+  <table>
+    <tr>
+      <th>Upcoming Features</th>
+      <th>Current Features</th>
+    </tr>
+    <tr>
+      <td valign="top">
+        <ul>
+          <li><strong>Virtual Courthouse</strong>: Present and argue cases in a fully virtual environment with a virtual judge.</li>
+          <li><strong>Comprehensive Case Analysis</strong>: Access detailed statistics and insights from extensive case law data.</li>
+          <li><strong>Global Expansion</strong>: Introducing specialized legal AI tools for the USA, Australia, UK, New Zealand, and Germany.</li>
+          <li><strong>Enhanced Dashboards</strong>: Advanced dashboards for better data visualization and decision-making.</li>
+          <li><strong>Research Platform</strong>: A dedicated platform for legal research with intuitive tools.</li>
+        </ul>
+      </td>
+      <td valign="top">
+        <ul>
+          <li><strong>Legal Information Access</strong>: Users can retrieve and understand complex legal documents effortlessly.</li>
+          <li><strong>AI-Powered Assistance</strong>: Get instant responses to legal inquiries from a sophisticated AI model.</li>
+          <li><strong>User-Friendly Interface</strong>: Designed for ease of use for both legal professionals and clients.</li>
+          <li><strong>Secure Authentication</strong>: Ensured by Clerk, maintaining user data safety and privacy.</li>
+          <li><strong>Edge Runtime Capabilities</strong>: Ensures fast, reliable performance with the Vercel AI SDK.</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
+</details>
+
