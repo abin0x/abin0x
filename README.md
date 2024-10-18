@@ -206,6 +206,47 @@
 
 
 
+# My Projects
+
+Here are some of the projects I've worked on:
+
+## Project Title 1
+![Project Title 1](https://via.placeholder.com/300x150) <!-- Replace with your project image URL -->
+- **Description**: A brief description of your project goes here. Highlight the key features and technologies used.
+- **Technologies Used**: HTML, CSS, JavaScript
+- **Link**: [View Project](https://github.com/username/project1)
+
+---
+
+## Project Title 2
+![Project Title 2](https://via.placeholder.com/300x150) <!-- Replace with your project image URL -->
+- **Description**: A brief description of your project goes here. Highlight the key features and technologies used.
+- **Technologies Used**: Python, Django, REST API
+- **Link**: [View Project](https://github.com/username/project2)
+
+---
+
+## Project Title 3
+![Project Title 3](https://via.placeholder.com/300x150) <!-- Replace with your project image URL -->
+- **Description**: A brief description of your project goes here. Highlight the key features and technologies used.
+- **Technologies Used**: React, Node.js
+- **Link**: [View Project](https://github.com/username/project3)
+
+---
+
+## Project Title 4
+![Project Title 4](https://via.placeholder.com/300x150) <!-- Replace with your project image URL -->
+- **Description**: A brief description of your project goes here. Highlight the key features and technologies used.
+- **Technologies Used**: Java, Spring Boot
+- **Link**: [View Project](https://github.com/username/project4)
+
+---
+
+## Technologies
+**Languages**: C, C++, JavaScript, Python, CSS, HTML, Java  
+**Frameworks/Platforms**: Bootstrap, Django, Django REST API  
+**Databases/ORM**: MySQL, MongoDB, Supabase, SQLite, PostgreSQL  
+**Design Tools**: Canva, Figma, Adobe
 
 
 
