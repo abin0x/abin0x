@@ -134,6 +134,16 @@
 
 
 
+## 👨‍💻 My GitHub Profile
+
+![My Profile Image](https://avatars.githubusercontent.com/u/100126221?v=4)
+
+### Total Solves and Activity
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=abin0x&show_icons=true&theme=radical)
+
+### Languages
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=abin0x&layout=compact&theme=radical)
+
 ## 👨‍💻 Competitive Programming Profiles
 
 Here are my competitive programming profiles where you can find my activity and achievements!
@@ -144,4 +154,5 @@ Here are my competitive programming profiles where you can find my activity and 
 ### 🔗 My Profiles:
 - **Codeforces**: [abin0x](https://codeforces.com/profile/abin0x)
 - **LeetCode**: [abin0x](https://leetcode.com/abin0x)
+
 
