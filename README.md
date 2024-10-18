@@ -133,26 +133,23 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=110&section=footer" width="100%">
 
 
+## 👨‍💻 My Competitive Programming Profiles
 
-## 👨‍💻 My GitHub Profile
+![My Profile Image]([https://avatars.githubusercontent.com/u/100126221?v=4](https://i.ibb.co.com/LNKSSnx/profile-2.png))
 
-![My Profile Image](https://avatars.githubusercontent.com/u/100126221?v=4)
-
-### Total Solves and Activity
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=abin0x&show_icons=true&theme=radical)
-
-### Languages
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=abin0x&layout=compact&theme=radical)
-
-## 👨‍💻 Competitive Programming Profiles
-
-Here are my competitive programming profiles where you can find my activity and achievements!
-
+### Codeforces Profile
 [![Codeforces](https://img.shields.io/badge/Codeforces-FF4B4B?style=for-the-badge&logo=Codeforces&logoColor=white)](https://codeforces.com/profile/abin0x)
+
+### LeetCode Profile
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=white)](https://leetcode.com/abin0x)
 
-### 🔗 My Profiles:
+### Competitive Programming Stats
+- **Total Problems Solved**: [![Codeforces Stats](https://codeforces.com/api/user.status?handle=abin0x&count=1)](https://codeforces.com/profile/abin0x)  (You might need to integrate with Codeforces API to fetch this dynamically)
+- **LeetCode Stats**: (You might need to manually update this or fetch using LeetCode API)
+
+### Additional Info
 - **Codeforces**: [abin0x](https://codeforces.com/profile/abin0x)
 - **LeetCode**: [abin0x](https://leetcode.com/abin0x)
+
 
 
