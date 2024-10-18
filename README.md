@@ -206,29 +206,6 @@
 
 
 
-<div style="border: 1px solid #ddd; border-radius: 10px; padding: 15px; width: 300px; background-color: #f9f9f9; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
-    <h4 style="margin-bottom: 10px;">Project Title 1</h4>
-    <p>A brief description of your project goes here. Highlight the key features and technologies used.</p>
-    <a href="https://github.com/username/project1" style="text-decoration: none; color: #007bff;">View Project</a>
-</div>
-
-<div style="border: 1px solid #ddd; border-radius: 10px; padding: 15px; width: 300px; background-color: #f9f9f9; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
-    <h4 style="margin-bottom: 10px;">Project Title 2</h4>
-    <p>A brief description of your project goes here. Highlight the key features and technologies used.</p>
-    <a href="https://github.com/username/project2" style="text-decoration: none; color: #007bff;">View Project</a>
-</div>
-
-<div style="border: 1px solid #ddd; border-radius: 10px; padding: 15px; width: 300px; background-color: #f9f9f9; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
-    <h4 style="margin-bottom: 10px;">Project Title 3</h4>
-    <p>A brief description of your project goes here. Highlight the key features and technologies used.</p>
-    <a href="https://github.com/username/project3" style="text-decoration: none; color: #007bff;">View Project</a>
-</div>
-
-<div style="border: 1px solid #ddd; border-radius: 10px; padding: 15px; width: 300px; background-color: #f9f9f9; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
-    <h4 style="margin-bottom: 10px;">Project Title 4</h4>
-    <p>A brief description of your project goes here. Highlight the key features and technologies used.</p>
-    <a href="https://github.com/username/project4" style="text-decoration: none; color: #007bff;">View Project</a>
-</div>
 
 
 
