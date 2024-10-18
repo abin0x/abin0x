@@ -124,11 +124,11 @@ I have a strong foundation in programming languages like Python, Django, C, and 
 
 Here are some of the projects I've worked on:
 
-| Project Title | Project Title |
+| Library Management System | Online Course School |
 | -------------- | -------------- |
 | ![Library Management System](https://i.ibb.co/Pxm4pBp/ae3a7513-d1d6-4a91-b56b-9925b857fea1.png) <br> **Description**: A comprehensive library management system that enables users to manage book inventories, track lending history, and facilitate user registrations. <br> **Technologies Used**: HTML, CSS, JavaScript, Python, Django <br> **Link**: [View Project](https://library0x.netlify.app/) | ![Online Course School](https://i.ibb.co.com/Q6vcrjq/77912647-e7bb-46fa-ab03-3155bd34d828.png) <br> **Description**: An online platform for courses where students can enroll, manage their progress, and access course materials easily. <br> **Technologies Used**: HTML, CSS, JavaScript, Python, Django <br> **Link**: [View Project](https://library0x.netlify.app/) |
-| -------------- | -------------- |
-| ![University Management System](https://i.ibb.co/qMhcXzP/all-devices-black.png) <br> **Description**: A university management system that handles student registrations, course enrollments, and academic performance tracking. <br> **Technologies Used**: HTML, CSS, JavaScript, Python, Django <br> **Link**: [View Project](https://hstu.netlify.app/) | ![Project 4](https://i.ibb.co.com/tYJvqf5/e7cc6e94-73c5-4a20-9098-714896954c76.png) <br> **Description**: A brief description of your project goes here. Highlight the key features and technologies used. <br> **Technologies Used**: Add technologies here <br> **Link**: [View Project](https://abin0x.netlify.app/) |
+| University Management System | My Portfolio |
+| ![University Management System](https://i.ibb.co/qMhcXzP/all-devices-black.png) <br> **Description**: A university management system that handles student registrations, course enrollments, and academic performance tracking. <br> **Technologies Used**: HTML, CSS, JavaScript, Python, Django <br> **Link**: [View Project](https://hstu.netlify.app/) | ![Project 4](https://i.ibb.co.com/tYJvqf5/e7cc6e94-73c5-4a20-9098-714896954c76.png) <br> **Description**: A brief description of your project goes here. Highlight the key features and technologies used. <br> **Technologies Used**: HTML,CSS,JS <br> **Link**: [View Project](https://abin0x.netlify.app/) |
 
 ---
 
