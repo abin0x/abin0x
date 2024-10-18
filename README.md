@@ -134,11 +134,7 @@
 
 
 ### Technologies
-<div style="border: 1px solid #ddd; border-radius: 10px; padding: 15px; background-color: #f9f9f9; 
-    display: flex; flex-wrap: wrap; gap: 10px; 
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
-    transition: transform 0.3s;">
-
+<div style="border: 1px solid #ddd; border-radius: 10px; padding: 15px; background-color: #f9f9f9; display: flex; flex-wrap: wrap; gap: 10px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
     <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
     <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
@@ -146,12 +142,6 @@
     <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java" />
     <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
 </div>
-
-<style>
-    div:hover {
-        transform: scale(1.02);
-    }
-</style>
 
 
 ## 👨‍💻 My Competitive Programming Profiles
