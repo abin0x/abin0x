@@ -135,7 +135,7 @@
 
 ## 👨‍💻 My Competitive Programming Profiles
 
-![My Profile Image]([https://avatars.githubusercontent.com/u/100126221?v=4](https://i.ibb.co.com/LNKSSnx/profile-2.png))
+
 
 ### Codeforces Profile
 [![Codeforces](https://img.shields.io/badge/Codeforces-FF4B4B?style=for-the-badge&logo=Codeforces&logoColor=white)](https://codeforces.com/profile/abin0x)
@@ -143,9 +143,7 @@
 ### LeetCode Profile
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=white)](https://leetcode.com/abin0x)
 
-### Competitive Programming Stats
-- **Total Problems Solved**: [![Codeforces Stats](https://codeforces.com/api/user.status?handle=abin0x&count=1)](https://codeforces.com/profile/abin0x)  (You might need to integrate with Codeforces API to fetch this dynamically)
-- **LeetCode Stats**: (You might need to manually update this or fetch using LeetCode API)
+
 
 ### Additional Info
 - **Codeforces**: [abin0x](https://codeforces.com/profile/abin0x)
