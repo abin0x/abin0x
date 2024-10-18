@@ -120,17 +120,15 @@ I have a strong foundation in programming languages like Python, Django, C, and 
 
 <h2 align="center">📚 Projects</h2>
 
+# My Projects
 
 Here are some of the projects I've worked on:
 
-| Library Management System | Online Course School |
-| ---------------- | ---------------- |
-| ![Project 1]([https://via.placeholder.com](https://i.ibb.co.com/Pxm4pBp/ae3a7513-d1d6-4a91-b56b-9925b857fea1.png
-https://i.ibb.co.com/qMhcXzP/all-devices-black.png
-https://i.ibb.co.com/Q6vcrjq/77912647-e7bb-46fa-ab03-3155bd34d828.png)/300x150)  <!-- Replace with your project image URL -->  <br>  **Description**: A brief description of your project goes here. Highlight the key features and technologies used.  <br>  **Technologies Used**: HTML, CSS, JavaScript  <br>  **Link**: [View Project](https://github.com/username/project1) | ![Project 2](https://via.placeholder.com/300x150)  <!-- Replace with your project image URL -->  <br>  **Description**: A brief description of your project goes here. Highlight the key features and technologies used.  <br>  **Technologies Used**: Python, Django, REST API  <br>  **Link**: [View Project](https://github.com/username/project2) |
-| ---------------- | ---------------- |
-| Project Title 3 | Project Title 4 |
-| ![Project 3](https://via.placeholder.com/300x150)  <!-- Replace with your project image URL -->  <br>  **Description**: A brief description of your project goes here. Highlight the key features and technologies used.  <br>  **Technologies Used**: React, Node.js  <br>  **Link**: [View Project](https://github.com/username/project3) | ![Project 4](https://via.placeholder.com/300x150)  <!-- Replace with your project image URL -->  <br>  **Description**: A brief description of your project goes here. Highlight the key features and technologies used.  <br>  **Technologies Used**: Java, Spring Boot  <br>  **Link**: [View Project](https://github.com/username/project4) |
+| Project Title | Project Title |
+| -------------- | -------------- |
+| ![Library Management System](https://i.ibb.co/com/Pxm4pBp/ae3a7513-d1d6-4a91-b56b-9925b857fea1.png) <br> **Description**: A comprehensive library management system that enables users to manage book inventories, track lending history, and facilitate user registrations. <br> **Technologies Used**: HTML, CSS, JavaScript, Python, Django <br> **Link**: [View Project](https://github.com/username/library-management-system) | ![Online Course School](https://i.ibb.co/com/qMhcXzP/all-devices-black.png) <br> **Description**: An online platform for courses where students can enroll, manage their progress, and access course materials easily. <br> **Technologies Used**: HTML, CSS, JavaScript, Python, Django <br> **Link**: [View Project](https://github.com/username/online-course-school) |
+| -------------- | -------------- |
+| ![University Management System](https://i.ibb.co/com/Q6vcrjq/77912647-e7bb-46fa-ab03-3155bd34d828.png) <br> **Description**: A university management system that handles student registrations, course enrollments, and academic performance tracking. <br> **Technologies Used**: HTML, CSS, JavaScript, Python, Django <br> **Link**: [View Project](https://github.com/username/university-management-system) | ![Project 4](https://via.placeholder.com/300x150) <br> **Description**: A brief description of your project goes here. Highlight the key features and technologies used. <br> **Technologies Used**: Add technologies here <br> **Link**: [View Project](https://github.com/username/project4) |
 
 ---
 
@@ -139,7 +137,6 @@ https://i.ibb.co.com/Q6vcrjq/77912647-e7bb-46fa-ab03-3155bd34d828.png)/300x150) 
 **Frameworks/Platforms**: Bootstrap, Django, Django REST API  
 **Databases/ORM**: MySQL, MongoDB, Supabase, SQLite, PostgreSQL  
 **Design Tools**: Canva, Figma, Adobe
-
 
 
 <h2 align="center">📫 Get in Touch</h2>
