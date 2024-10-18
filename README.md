@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="https://bento.me/abin0x">
-    <img width="100%" src="https://cardivo.vercel.app/api?name=Mahmudul%20Hasan%20Abin&description=Versatile%20Computer%20Engineer%20and%20Full-Stack%20Developer%20specializing%20in%20Cloud%20Computing,%20AI/ML,%20and%20high-quality%20streaming%20technologies.%20Committed%20to%20leveraging%20advanced%20AI%20solutions%20to%20boost%20productivity%20and%20foster%20creative%20problem-solving.%20Passionate%20about%20pushing%20the%20boundaries%20of%20modern%20technology%20to%20deliver%20exceptional%20results.&image=https%3A%2F%2Fdrive.google.com%2Fuc%3Fexport%3Dview%26id%3D1hyV7-KzqCpHLPw5_nzvl6ybEjiMO9OuN&backgroundColor=%23ecf0f1&colorPattern=%23eaeaea&youtube=abin0x&instagram=abin0x&linkedin=MahmudulHasanAbin&github=abin0x&twitter=abin0x" alt="Mahmudul Hasan Abin's Card" />
+    <img width="100%" src="https://cardivo.vercel.app/api?name=Mahmudul%20Hasan%20Abin&description=Versatile%20Computer%20Engineer%20and%20Full-Stack%20Developer%20specializing%20in%20Cloud%20Computing,%20AI/ML,%20and%20high-quality%20streaming%20technologies.%20Committed%20to%20leveraging%20advanced%20AI%20solutions%20to%20boost%20productivity%20and%20foster%20creative%20problem-solving.%20Passionate%20about%20pushing%20the%20boundaries%20of%20modern%20technology%20to%20deliver%20exceptional%20results.&image=https%3A%2F%2Fi.ibb.co.com%2FLNKSSnx%2Fprofile-2.png&backgroundColor=%23ecf0f1&colorPattern=%23eaeaea&youtube=abin0x&instagram=abin0x&linkedin=MahmudulHasanAbin&github=abin0x&twitter=abin0x" alt="Mahmudul Hasan Abin's Card" />
   </a>
 </div>
 
@@ -17,41 +17,8 @@
 </p>
 
 <div align="center">
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://www.mahudulhasanabin.com/" target="_blank">
-        <img src="https://bentos.jkominovic.dev/api/v1/generic-card?icon=sireaddotcv&subtitle=Mahmudul+Hasan+Abin&size=square" alt="Mahmudul Hasan Abin">
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://www.youtube.com/@abin0x" target="_blank">
-        <img src="https://bentos.jkominovic.dev/api/v1/bento-cards?url=https%3A%2F%2Fwww.youtube.com%2F%40abin0x&subtitle=@abin0x&size=square" alt="abin0x">
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://www.instagram.com/abin0x/" target="_blank">
-        <img src="https://bentos.jkominovic.dev/api/v1/bento-cards?url=https%3A%2F%2Fwww.instagram.com%2Fabin0x%2F&subtitle=@abin0x&size=square" alt="abin0x">
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://www.linkedin.com/in/mahmudulhasanabin/" target="_blank">
-        <img src="https://bentos.jkominovic.dev/api/v1/bento-cards?url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmahmudulhasanabin%2F&subtitle=@Mahmudul+Hasan+Abin&size=square" alt="Mahmudul Hasan Abin">
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://facebook.com/abin0x" target="_blank">
-        <img src="https://bentos.jkominovic.dev/api/v1/bento-cards?url=https%3A%2F%2Ffacebook.com%2Fabin0x&subtitle=@Mahmudul+Hasan+Abin&size=square" alt="Mahmudul Hasan Abin">
-      </a>
-    </td>
-  </tr>
-</table>
-
-<br>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=abin0x&color=blueviolet&style=flat-square&label=Profile+Views" alt="Profile views" width="200" height="35">
-</p>
+  <img src="https://i.ibb.co.com/LNKSSnx/profile-2.png" width="150" alt="Mahmudul Hasan Abin" style="border-radius: 50%; border: 2px solid #ddd;">
+</div>
 
 <h2 align="center">🚀 About Me</h2>
 
