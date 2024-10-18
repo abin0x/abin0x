@@ -80,7 +80,9 @@
 
 <h2 align="center">🚀 About Me</h2>
 <p align="center">
-  I am a passionate Computer Engineer and Full-Stack Developer specializing in Web Development, Artificial Intelligence/Machine Learning, and Cloud Computing. I thrive on building innovative solutions that enhance user experiences and push the boundaries of technology.
+  👋 Hi, I’m Mahmudul Hasan Abin, a Junior Python Developer from Hajee Mohammad Danesh Science and Technology University, Dinajpur.
+
+I have a strong foundation in programming languages like Python, Django, C, and C++, along with web technologies including HTML, CSS, and JavaScript. I am passionate about writing clean, efficient code and continuously learning new technologies.
 </p>
 
 <h3 align="center">📈 Git Stats</h3>
