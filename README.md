@@ -2,7 +2,12 @@
 
 <div align="center">
   <a href="https://bento.me/abin0x">
-    <img width="100%" src="https://cardivo.vercel.app/api?name=Mahmudul%20Hasan%20Abin&description=Versatile%20Computer%20Engineer%20and%20Full-Stack%20Developer%20specializing%20in%20Cloud%20Computing,%20AI/ML,%20and%20high-quality%20streaming%20technologies.%20Committed%20to%20leveraging%20advanced%20AI%20solutions%20to%20boost%20productivity%20and%20foster%20creative%20problem-solving.%20Passionate%20about%20pushing%20the%20boundaries%20of%20modern%20technology%20to%20deliver%20exceptional%20results.&image=https%3A%2F%2Fi.ibb.co.com%2FLNKSSnx%2Fprofile-2.png&backgroundColor=%23ecf0f1&colorPattern=%23eaeaea&youtube=abin0x&instagram=abin0x&linkedin=MahmudulHasanAbin&github=abin0x&twitter=abin0x" alt="Mahmudul Hasan Abin's Card" />
+   <img width="100%" src="https://cardivo.vercel.app/api?name=Mahmudul%20Hasan%20Abin&description=Versatile%20Computer%20Engineer%20and%20Full-Stack%20Developer%20specializing%20in%20Cloud%20Computing,%20AI/ML,%20and%20high-quality%20streaming%20technologies.%20Committed%20to%20leveraging%20advanced%20AI%20solutions%20to%20boost%20productivity%20and%20foster%20creative%20problem-solving.%20Passionate%20about%20pushing%20the%20boundaries%20of%20modern%20technology%20to%20deliver%20exceptional%20results.&image=https%3A%2F%2Fi.ibb.co.com%2FLNKSSnx%2Fprofile-2.png&backgroundColor=%23ecf0f1&colorPattern=%23eaeaea&youtube=abin0x&instagram=abin0x&linkedin=MahmudulHasanAbin&github=abin0x&twitter=abin0x" alt="Mahmudul Hasan Abin's Card" />
+
+👋 Hi, I’m Mahmudul Hasan Abin, a Junior Python Developer from Hajee Mohammad Danesh Science and Technology University, Dinajpur.
+
+I have a strong foundation in programming languages like Python, Django, C, and C++, along with web technologies including HTML, CSS, and JavaScript. I am passionate about writing clean, efficient code and continuously learning new technologies.
+
   </a>
 </div>
 <h1 align="center">👋 Hello, I'm Mahmudul Hasan Abin!</h1>
