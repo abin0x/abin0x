@@ -198,96 +198,25 @@ Here are some of the projects I've worked on:
 
 
 
-<!-- Competitive Programming Profiles --> 
-
-## <img src="https://media4.giphy.com/media/dMLmQfCO7lCA2gX3tw/giphy.gif?cid=ecf05e47ak6mwfu812269zzr8ydv529109qzpb8rszwnja9e&rid=giphy.gif&ct=s" width=10%> My Competitive Programming Profiles
-
-<img src="https://github.com/Md-Merazul-Islam/meraz_cf/blob/main/output/max_rating.svg" alt="Max Rating" width="" />
-<table width="100%">
-  <tr>
-    <td width="33%" valign="top align="center">
-      <a href="https://github.com/Md-Merazul-Islam/meraz_cf" align="center">
-        <img src="https://github.com/Md-Merazul-Islam/meraz_cf/blob/main/output/light_card.svg#gh-dark-mode-only" alt="Codeforces Card" width="100%" align="center" />
-      </a>
-    </td>
-    <td width="33%" valign="top" align="center">
-      <table width="100%">
-        <tr>
-          <th align="left">Platform</th>
-          <th align="left">Profile Link</th>
-          <th align="center">Image</th>
-        </tr>
-        <tr>
-          <td>Codeforces</td>
-          <td><a href="https://codeforces.com/profile/abin0x">Profile</a></td>
-          <td align="center">
-            <a href="https://codeforces.com/profile/abin0x">
-              <img src="https://i.ibb.co/bmz0Z6C/Untitled-design-removebg-preview.png" alt="Codeforces" width="24" />
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <td>LeetCode</td>
-          <td><a href="https://leetcode.com/mdmerazulislam/">Profile</a></td>
-          <td align="center">
-            <a href="https://leetcode.com/mdmerazulislam/">
-              <img src="https://i.ibb.co/PrNnHzz/Untitled-design-2-removebg-preview.png" alt="LeetCode" width="24" />
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <td>AtCoder</td>
-          <td><a href="https://atcoder.jp/users/mdmerazulislam">Profile</a></td>
-          <td align="center">
-            <a href="https://atcoder.jp/users/mdmerazulislam">
-              <img src="https://i.ibb.co/Cb6V7NF/Untitled-design-3-removebg-preview.png" alt="AtCoder" width="24" />
-            </a>
-          </td>
-        </tr>
-      </table>
-    </td>
-    <td width="33%" valign="top" align="center">
-      <table width="100%">
-        <tr>
-          <th align="left">Platform</th>
-          <th align="left">Profile Link</th>
-          <th align="center">Image</th>
-        </tr>
-        <tr>
-          <td>CodeChef</td>
-          <td><a href="https://www.codechef.com/users/mdmerazulislam">Profile</a></td>
-          <td align="center">
-            <a href="https://www.codechef.com/users/mdmerazulislam">
-              <img src="https://i.ibb.co/bbWxB0s/Untitled-design-4-removebg-preview.png" alt="CodeChef" width="24" />
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <td>HackerRank</td>
-          <td><a href="https://www.hackerrank.com/profile/mdmerazul75">Profile</a></td>
-          <td align="center">
-            <a href="https://www.hackerrank.com/profile/mdmerazul75">
-              <img src="https://i.ibb.co/3NzhC55/Untitled-design-5-removebg-preview.png" alt="HackerRank" width="24" />
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <td>Vjudge</td>
-          <td><a href="https://vjudge.net/user/mdmerazulislam">Profile</a></td>
-          <td align="center">
-            <a href="https://vjudge.net/user/mdmerazulislam">
-              <img src="https://i.ibb.co/gWjkfwY/download.jpg" alt="Vjudge" width="24" />
-            </a>
-          </td>
-        </tr>
-      </table>
-    </td>
-  </tr>
-</table>
 
 
 
 
+## 👨‍💻 My Competitive Programming Profiles
+
+
+
+### Codeforces Profile
+[![Codeforces](https://img.shields.io/badge/Codeforces-FF4B4B?style=for-the-badge&logo=Codeforces&logoColor=white)](https://codeforces.com/profile/abin0x)
+
+### LeetCode Profile
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=LeetCode&logoColor=white)](https://leetcode.com/abin0x)
+
+
+
+### Additional Info
+- **Codeforces**: [abin0x](https://codeforces.com/profile/abin0x)
+- **LeetCode**: [abin0x](https://leetcode.com/abin0x)
 
 
 
