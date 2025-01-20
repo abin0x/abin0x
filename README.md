@@ -198,7 +198,9 @@ Here are some of the projects I've worked on:
 
 
 
+<!-- Competitive Programming Profiles --> 
 
+## <img src="https://media4.giphy.com/media/dMLmQfCO7lCA2gX3tw/giphy.gif?cid=ecf05e47ak6mwfu812269zzr8ydv529109qzpb8rszwnja9e&rid=giphy.gif&ct=s" width=10%> My Competitive Programming Profiles
 
 <img src="https://github.com/Md-Merazul-Islam/meraz_cf/blob/main/output/max_rating.svg" alt="Max Rating" width="" />
 <table width="100%">
