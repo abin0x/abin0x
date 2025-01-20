@@ -219,7 +219,7 @@ Here are some of the projects I've worked on:
         </tr>
         <tr>
           <td>Codeforces</td>
-          <td><a href="https://codeforces.com/profile/Md-Merazul-Islam">Profile</a></td>
+          <td><a href="https://codeforces.com/profile/abin0x">Profile</a></td>
           <td align="center">
             <a href="https://codeforces.com/profile/Md-Merazul-Islam">
               <img src="https://i.ibb.co/bmz0Z6C/Untitled-design-removebg-preview.png" alt="Codeforces" width="24" />
