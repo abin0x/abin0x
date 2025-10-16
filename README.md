@@ -11,66 +11,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=9400D3&center=true&vCenter=true&width=435&lines=Computer+Engineer;Full-Stack+Developer;AI+Engineer;Web+Developer;Gamer;" alt="Typing SVG" />
 </p>
 
-<p align="center">Content Creator | Tech Enthusiast | Gamer</p>
 
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <a href="https://www.kenangain.com/" target="_blank">
-          <img src="https://bentos.jkominovic.dev/api/v1/generic-card?icon=sireaddotcv&subtitle=Mahmudul+Hasan+Abin&size=square" alt="Mahmudul Hasan Abin">
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://www.youtube.com/@abin0x" target="_blank">
-          <img src="https://bentos.jkominovic.dev/api/v1/bento-cards?url=https%3A%2F%2Fwww.youtube.com%2F%40abin0x&subtitle=@abin0x&size=square" alt="YouTube Channel">
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://www.instagram.com/abin0x/" target="_blank">
-          <img src="https://bentos.jkominovic.dev/api/v1/bento-cards?url=https%3A%2F%2Fwww.instagram.com%2Fabin0x%2F&subtitle=@abin0x&size=square" alt="Instagram">
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://www.linkedin.com/in/mahmudul-hasan-abin/" target="_blank">
-          <img src="https://bentos.jkominovic.dev/api/v1/bento-cards?url=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fmahmudul-hasan-abin%2F&subtitle=@Mahmudul+Hasan+Abin&size=square" alt="LinkedIn">
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://facebook.com/mahmudulhasanabin" target="_blank">
-          <img src="https://bentos.jkominovic.dev/api/v1/bento-cards?url=https%3A%2F%2Ffacebook.com%2Fmahmudulhasanabin&subtitle=@Mahmudul+Hasan+Abin&size=square" alt="Facebook">
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center">
-        <a href="https://twitch.tv/abin0x" target="_blank">
-          <img src="https://bentos.jkominovic.dev/api/v1/bento-cards?url=https%3A%2F%2Ftwitch.tv%2Fabin0x&subtitle=@abin0x&size=square" alt="Twitch">
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://x.com/abin0x" target="_blank">
-          <img src="https://bentos.jkominovic.dev/api/v1/bento-cards?url=https%3A%2F%2Fx.com%2Fabin0x&subtitle=@abin0x&size=square" alt="X (Twitter)">
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://reddit.com/user/abin0x" target="_blank">
-          <img src="https://bentos.jkominovic.dev/api/v1/bento-cards?url=https%3A%2F%2Fwww.reddit.com%2Fuser%2Fabin0x&subtitle=r/abin0x&size=square" alt="Reddit">
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://discord.gg/YdDyV6QqEN" target="_blank">
-          <img src="https://bentos.jkominovic.dev/api/v1/bento-cards?url=https%3A%2F%2Fdiscord.gg%2FYdDyV6QqEN&subtitle=Abin0x&size=square" alt="Discord">
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://github.com/abin0x" target="_blank">
-          <img src="https://bentos.jkominovic.dev/api/v1/bento-cards?url=https%3A%2F%2Fgithub.com%2Fabin0x&subtitle=%2Fabin0x&size=square" alt="GitHub">
-        </a>
-      </td>
-    </tr>
-  </table>
-</div>
 
 <br>
 
