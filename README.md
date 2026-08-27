@@ -166,24 +166,20 @@ Daily practice on Codeforces and LeetCode with C++ and Python.
 
 ## <samp>&gt;&nbsp;GitHub Statistics</samp>
 
-<div align="center">
+<!--
+  Self-hosted on purpose. The usual third-party cards
+  (github-readme-stats / activity-graph / profile-trophy) run on free Vercel
+  accounts that regularly answer 402 or 503, and then this section shows
+  nothing but broken images. This card is generated into the repo instead:
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=abin0x&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=22D3EE&icon_color=A855F7&text_color=C9D1D9&ring_color=22D3EE" alt="GitHub stats">
-<img width="41%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abin0x&layout=compact&langs_count=8&hide=html&hide_border=true&bg_color=0D1117&title_color=22D3EE&text_color=C9D1D9" alt="Top languages">
+      python assets/stats.py          refresh the numbers
+      GITHUB_TOKEN=xxx python assets/stats.py    one-shot full refresh
 
-<br><br>
-
-<img width="91%" src="https://streak-stats.demolab.com?user=abin0x&hide_border=true&background=0D1117&stroke=1E293B&ring=A855F7&fire=22D3EE&currStreakLabel=22D3EE&sideLabels=C9D1D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B949E" alt="GitHub streak">
-
-<br><br>
-
-<img width="91%" src="https://github-readme-activity-graph.vercel.app/graph?username=abin0x&custom_title=Contribution%20Graph&hide_border=true&radius=10&bg_color=0D1117&color=22D3EE&title_color=22D3EE&line=A855F7&point=FFFFFF&area_color=8B5CF6&area=true" alt="Contribution graph">
-
-<br><br>
-
-<img width="91%" src="https://github-profile-trophy.vercel.app/?username=abin0x&theme=darkhub&no-frame=true&no-bg=true&column=7&margin-w=6&margin-h=6" alt="Trophies">
-
-</div>
+  Data: api.github.com + github-contributions-api.jogruber.de
+-->
+<p align="center">
+  <img src="assets/stats-card.svg" width="100%" alt="GitHub statistics for abin0x">
+</p>
 
 ---
 
