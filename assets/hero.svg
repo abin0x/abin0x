@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-label="Mahmudul Hasan Abin - Python and Django Developer">
+  <title>Mahmudul Hasan Abin — Python &amp; Django Developer</title>
+
+  <defs>
+    <!-- window clip -->
+    <clipPath id="win"><rect x="1" y="1" width="998" height="298" rx="18"/></clipPath>
+
+    <!-- dot grids -->
+    <pattern id="dimDots" width="7" height="7" patternUnits="userSpaceOnUse">
+      <circle cx="3.5" cy="3.5" r="1.45" fill="#ffffff"/>
+    </pattern>
+    <pattern id="bigDots" width="7" height="7" patternUnits="userSpaceOnUse">
+      <circle cx="3.5" cy="3.5" r="2.45" fill="#ffffff"/>
+    </pattern>
+    <mask id="dimMask"><rect width="1000" height="300" fill="url(#dimDots)"/></mask>
+    <mask id="bigMask"><rect width="1000" height="300" fill="url(#bigDots)"/></mask>
+
+    <!-- name as a mask so only dots inside the letters light up -->
+    <mask id="nameMask">
+      <rect width="1000" height="300" fill="#000000"/>
+      <text x="500" y="152" text-anchor="middle"
+            font-family="'Arial Black','Segoe UI Black',Impact,'Helvetica Neue',Arial,sans-serif"
+            font-weight="900" font-size="64" letter-spacing="1" fill="#ffffff">MAHMUDUL HASAN ABIN</text>
+    </mask>
+
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0.4">
+      <stop offset="0" stop-color="#A855F7"/>
+      <stop offset="0.35" stop-color="#22D3EE"/>
+      <stop offset="0.68" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#22D3EE" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="spotA">
+      <stop offset="0" stop-color="#3B82F6" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="spotB">
+      <stop offset="0" stop-color="#A855F7" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+
+  <g clip-path="url(#win)">
+    <!-- backdrop -->
+    <rect width="1000" height="300" fill="#05070E"/>
+
+    <!-- dot matrix field + travelling light -->
+    <g mask="url(#dimMask)">
+      <rect width="1000" height="300" fill="#172542"/>
+      <ellipse cx="0" cy="150" rx="300" ry="230" fill="url(#spotA)">
+        <animateTransform attributeName="transform" type="translate"
+                          values="-180 0; 1180 0; -180 0" dur="13s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse cx="0" cy="210" rx="230" ry="180" fill="url(#spotB)">
+        <animateTransform attributeName="transform" type="translate"
+                          values="1180 0; -180 0; 1180 0" dur="17s" repeatCount="indefinite"/>
+      </ellipse>
+    </g>
+
+    <!-- glow behind the lit dots -->
+    <g filter="url(#soft)" opacity="0.55">
+      <g mask="url(#nameMask)">
+        <g mask="url(#bigMask)">
+          <rect width="1000" height="300" fill="url(#nameGrad)"/>
+        </g>
+      </g>
+    </g>
+
+    <!-- the name, rendered in lit dots -->
+    <g mask="url(#nameMask)">
+      <g mask="url(#bigMask)">
+        <rect width="1000" height="300" fill="url(#nameGrad)"/>
+        <rect x="-360" y="-40" width="200" height="420" fill="url(#shine)" transform="skewX(-16)">
+          <animate attributeName="x" values="-380;1120" dur="4.6s" begin="0.6s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+    </g>
+
+    <!-- accent rule -->
+    <rect x="330" y="172" width="340" height="2" rx="1" fill="url(#rule)">
+      <animate attributeName="opacity" values="0.35;1;0.35" dur="3.2s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- role line -->
+    <text x="500" y="205" text-anchor="middle" font-family="'Segoe UI',Roboto,Helvetica,Arial,sans-serif"
+          font-size="14.5" font-weight="600" letter-spacing="5.5" fill="#7DD3FC">
+      PYTHON <tspan fill="#475569">•</tspan> DJANGO <tspan fill="#475569">•</tspan> WEB DEV <tspan fill="#475569">•</tspan> APP DEV
+      <animate attributeName="opacity" values="0.55;1;0.55" dur="4s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- terminal line -->
+    <text x="500" y="250" text-anchor="middle" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="14.5">
+      <tspan fill="#22D3EE">$</tspan><tspan fill="#94A3B8" xml:space="preserve"> python3 -m abin0x --say-hello </tspan><tspan fill="#22D3EE">█<animate attributeName="opacity" values="1;1;0;0" dur="1.1s" repeatCount="indefinite"/></tspan>
+    </text>
+
+    <!-- header bar -->
+    <rect width="1000" height="46" fill="#0A101F"/>
+    <line x1="0" y1="46" x2="1000" y2="46" stroke="#1E293B" stroke-width="1"/>
+    <circle cx="28" cy="23" r="6.5" fill="#FF5F57">
+      <animate attributeName="opacity" values="1;0.25;1" dur="2.4s" begin="0s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="52" cy="23" r="6.5" fill="#FEBC2E">
+      <animate attributeName="opacity" values="1;0.25;1" dur="2.4s" begin="0.35s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="76" cy="23" r="6.5" fill="#28C840">
+      <animate attributeName="opacity" values="1;0.25;1" dur="2.4s" begin="0.7s" repeatCount="indefinite"/>
+    </circle>
+    <text x="108" y="28" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace"
+          font-size="13" fill="#64748B">abin0x@github: ~/profile</text>
+    <text x="972" y="28" text-anchor="end" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace"
+          font-size="12.5" fill="#28C840">● available for work</text>
+
+    <!-- frame -->
+    <rect x="1" y="1" width="998" height="298" rx="18" fill="none" stroke="#1E293B" stroke-width="2"/>
+  </g>
+</svg>

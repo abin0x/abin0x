@@ -33,9 +33,16 @@
 
 ## <samp>&gt;&nbsp;About Me</samp>
 
-<table>
-<tr>
-<td width="58%" valign="top">
+<p align="center">
+  <img src="assets/neofetch-card.svg" width="100%" alt="abin0x@github — neofetch style profile card">
+</p>
+
+<!--
+  Two other cards are built and ready in assets/ — swap either one in here:
+    assets/profile-card.svg   light card: typed bio, orbiting rings, the photo
+                              dissolving into dots and back  (python assets/cardify.py)
+    assets/avatar-dots.svg    just the portrait as a dot matrix  (python assets/dotify.py)
+-->
 
 I'm **Mahmudul Hasan Abin** — a Junior Python Developer studying at
 **Hajee Mohammad Danesh Science and Technology University**, Dinajpur.
@@ -48,15 +55,6 @@ I'm **Mahmudul Hasan Abin** — a Junior Python Developer studying at
 - 🏆 &nbsp;Solving problems on **Codeforces** and **LeetCode** as `abin0x`
 - 🌱 &nbsp;Currently going deeper into **REST APIs, system design and AI**
 - 💬 &nbsp;Ask me about **Python, Django or anything web & app**
-
-</td>
-<td width="42%" valign="top" align="center">
-
-<img src="assets/avatar-dots.svg" width="100%" alt="Mahmudul Hasan Abin">
-
-</td>
-</tr>
-</table>
 
 <details>
 <summary><samp><b>&nbsp;⚡ abin0x.py — run me</b></samp></summary>
