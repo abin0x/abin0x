@@ -12,7 +12,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(HERE, "profile-src.png")
 OUT = os.path.join(HERE, "avatar-dots.svg")
 
-CROP = (196, 8, 378, 190)     # tight head-and-shoulders crop
+CROP = (110, 6, 350, 246)     # tight head-and-shoulders crop (460x460 GitHub photo)
 COLS = 110                     # dot columns (higher = sharper face)
 CELL = 5                       # px per cell in the output
 PAD_X, PAD_TOP, PAD_BOT = 18, 18, 18

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 470" width="1200" height="470" role="img" aria-label="What Mahmudul Hasan Abin is doing right now">
+<title>What Mahmudul Hasan Abin is doing right now</title>
+<defs>
+<clipPath id="win"><rect x="1" y="1" width="1198" height="468" rx="20"/></clipPath>
+<pattern id="dots" width="9" height="9" patternUnits="userSpaceOnUse"><circle cx="4.5" cy="4.5" r="1.1" fill="#16203A"/></pattern>
+<clipPath id="cmd"><rect x="44" y="92" width="0" height="40"><animate attributeName="width" from="0" to="460" begin=".2s" dur=".8s" fill="freeze"/></rect></clipPath>
+<clipPath id="row0"><rect x="40" y="144" width="0" height="46"><animate attributeName="width" from="0" to="1120" begin="1.00s" dur=".7s" fill="freeze"/></rect></clipPath>
+<clipPath id="row1"><rect x="40" y="194" width="0" height="46"><animate attributeName="width" from="0" to="1120" begin="1.45s" dur=".7s" fill="freeze"/></rect></clipPath>
+<clipPath id="row2"><rect x="40" y="244" width="0" height="46"><animate attributeName="width" from="0" to="1120" begin="1.90s" dur=".7s" fill="freeze"/></rect></clipPath>
+<clipPath id="row3"><rect x="40" y="294" width="0" height="46"><animate attributeName="width" from="0" to="1120" begin="2.35s" dur=".7s" fill="freeze"/></rect></clipPath>
+<clipPath id="row4"><rect x="40" y="344" width="0" height="46"><animate attributeName="width" from="0" to="1120" begin="2.80s" dur=".7s" fill="freeze"/></rect></clipPath>
+</defs>
+<style>
+.mono{font-family:'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace}
+.sans{font-family:'Segoe UI',Inter,system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif}
+@keyframes blink{50%{opacity:0}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.28}}
+@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes spinBack{to{transform:rotate(-360deg)}}
+@keyframes drift{0%,100%{transform:translate(0,0)}50%{transform:translate(70px,26px)}}
+@keyframes driftBack{0%,100%{transform:translate(0,0)}50%{transform:translate(-80px,-20px)}}
+@keyframes twinkle{0%,100%{opacity:.15}50%{opacity:.9}}
+.blink{animation:blink 1.1s steps(1) infinite}
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+
+.row{animation:fade .4s both}
+.end{animation:fade .4s 3.7s both}
+</style>
+<g clip-path="url(#win)">
+<rect width="1200" height="470" fill="#05070E"/><rect width="1200" height="470" fill="url(#dots)"/>
+<rect width="1200" height="62" fill="#070B16"/><line x1="0" y1="62" x2="1200" y2="62" stroke="#1B2333" stroke-width="1.5"/><circle cx="34" cy="31" r="7" fill="#FF5F56"/><circle cx="58" cy="31" r="7" fill="#FFBD2E"/><circle cx="82" cy="31" r="7" fill="#27C93F"/><text x="600.0" y="37" text-anchor="middle" class="mono" font-size="16" fill="#5B6577">~/now.sh</text><g class="mono" font-size="15"><circle class="pulse" cx="1116" cy="31" r="5" fill="#3FB950"/><text x="1166" y="36" text-anchor="end" fill="#3FB950">live</text></g>
+<g clip-path="url(#cmd)" class="mono" font-size="20"><text x="50" y="118"><tspan fill="#3FB950">$</tspan><tspan fill="#E6EDF3"> ./now.sh --live</tspan></text></g>
+<g clip-path="url(#row0)"><circle class="pulse" style="animation-delay:0.0s" cx="66" cy="168" r="6" fill="#22D3EE"/><text class="mono" x="88" y="174" font-size="19" fill="#8B949E">building</text><text class="mono" x="226" y="174" font-size="19" fill="#5B6577">→</text><text class="sans" x="262" y="174" font-size="20" fill="#E6EDF3">abin0x.netlify.app  ·  Next.js, Supabase, Tailwind CSS</text></g>
+<g clip-path="url(#row1)"><circle class="pulse" style="animation-delay:0.4s" cx="66" cy="218" r="6" fill="#A855F7"/><text class="mono" x="88" y="224" font-size="19" fill="#8B949E">learning</text><text class="mono" x="226" y="224" font-size="19" fill="#5B6577">→</text><text class="sans" x="262" y="224" font-size="20" fill="#E6EDF3">System design  ·  LLM APIs &amp; AI agents  ·  RAG &amp; MCP</text></g>
+<g clip-path="url(#row2)"><circle class="pulse" style="animation-delay:0.8s" cx="66" cy="268" r="6" fill="#38BDF8"/><text class="mono" x="88" y="274" font-size="19" fill="#8B949E">exploring</text><text class="mono" x="226" y="274" font-size="19" fill="#5B6577">→</text><text class="sans" x="262" y="274" font-size="20" fill="#E6EDF3">AI and agentic development, and the future of software engineering</text></g>
+<g clip-path="url(#row3)"><circle class="pulse" style="animation-delay:1.2s" cx="66" cy="318" r="6" fill="#3FB950"/><text class="mono" x="88" y="324" font-size="19" fill="#8B949E">open to</text><text class="mono" x="226" y="324" font-size="19" fill="#5B6577">→</text><text class="sans" x="262" y="324" font-size="20" fill="#E6EDF3">Internships  ·  Freelance projects  ·  Collaboration</text></g>
+<g clip-path="url(#row4)"><circle class="pulse" style="animation-delay:1.6s" cx="66" cy="368" r="6" fill="#F59E0B"/><text class="mono" x="88" y="374" font-size="19" fill="#8B949E">based in</text><text class="mono" x="226" y="374" font-size="19" fill="#5B6577">→</text><text class="sans" x="262" y="374" font-size="20" fill="#E6EDF3">Dinajpur, Bangladesh  ·  UTC+6</text></g>
+<g class="end mono" font-size="20"><text x="50" y="432" fill="#3FB950">$</text><rect class="blink" x="72" y="414" width="12" height="23" fill="#E6EDF3" opacity=".85"/></g>
+</g>
+<rect x="1" y="1" width="1198" height="468" rx="20" fill="none" stroke="#1B2333" stroke-width="2"/>
+</svg>

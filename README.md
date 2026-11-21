@@ -1,17 +1,17 @@
 <!--
-  ┌──────────────────────────────────────────────────────────────────┐
-  │  README of @abin0x · Mahmudul Hasan Abin                         │
-  │  assets/hero.svg        animated dot-matrix banner               │
-  │  assets/avatar-dots.svg profile photo rendered in dots           │
-  └──────────────────────────────────────────────────────────────────┘
+  README of @abin0x · Mahmudul Hasan Abin
+
+  Every card is a plain SVG in assets/, built by a script next to it:
+    hero.svg, now.svg, orbit.svg, footer.svg   python assets/animated.py
+    neofetch-card.svg                          python assets/neofetch.py
+    stats-card.svg                             python assets/stats.py
+    profile-card.svg, avatar-dots.svg          python assets/cardify.py / dotify.py (spare cards)
+  The snake comes from .github/workflows/snake.yml (branch "output").
+  The previous design is kept as the git tag readme-v1-2026-11-21.
 -->
 
 <p align="center">
-  <img src="assets/hero.svg" alt="Mahmudul Hasan Abin, Software Engineer: Python, Django, Web &amp; App Developer" width="100%">
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=900&color=22D3EE&center=true&vCenter=true&width=580&height=40&lines=Software+Engineer;Python+%26+Django+Developer;AI+Enthusiast+%26+Researcher;Full-Stack+Web+%26+App+Developer;Competitive+Programmer;Always+learning%2C+always+building" alt="What I do">
+  <img src="assets/hero.svg" width="100%" alt="Mahmudul Hasan Abin (abin0x), Software Engineer, AI Enthusiast, Researcher and Builder. CSE student at HSTU, Dinajpur, Bangladesh.">
 </p>
 
 <p align="center">
@@ -34,15 +34,8 @@
 ## <samp>&gt;&nbsp;About Me</samp>
 
 <p align="center">
-  <img src="assets/neofetch-card.svg" width="100%" alt="abin0x@github — neofetch style profile card">
+  <img src="assets/neofetch-card.svg" width="100%" alt="abin0x@github: neofetch style profile card with my photo drawn in ASCII">
 </p>
-
-<!--
-  Two other cards are built and ready in assets/ — swap either one in here:
-    assets/profile-card.svg   light card: typed bio, orbiting rings, the photo
-                              dissolving into dots and back  (python assets/cardify.py)
-    assets/avatar-dots.svg    just the portrait as a dot matrix  (python assets/dotify.py)
--->
 
 I'm **Mahmudul Hasan Abin** (`abin0x`), a **Software Engineer** and Computer Science & Engineering student at
 **Hajee Mohammad Danesh Science and Technology University (HSTU)**, Dinajpur, Bangladesh.
@@ -54,14 +47,13 @@ I build intelligent software with Python & Django, explore AI and agentic develo
 - 🤖 &nbsp;Exploring **AI and agentic development**, and researching the future of software engineering
 - 📱 &nbsp;I also work on **App Development**: mobile apps and the APIs behind them
 - 🧩 &nbsp;Strong foundation in **C, C++ and Data Structures & Algorithms**
-- 🎨 &nbsp;Comfortable across the stack: **HTML, CSS, JavaScript, Bootstrap**
+- 🎨 &nbsp;Comfortable across the stack: **HTML, CSS, JavaScript, Bootstrap, Next.js**
 - 🗄️ &nbsp;Work daily with **PostgreSQL, MySQL, MongoDB, Supabase**
 - 🏆 &nbsp;Solving problems on **Codeforces** and **LeetCode** as `abin0x`
-- 🌱 &nbsp;Currently learning **system design, LLM APIs & AI agents, RAG & MCP**
 - 💬 &nbsp;Ask me about **Python, Django, AI or anything web & app**
 
 <details>
-<summary><samp><b>&nbsp;⚡ abin0x.py — run me</b></samp></summary>
+<summary><samp><b>&nbsp;⚡ abin0x.py: run me</b></samp></summary>
 
 ```python
 class Developer:
@@ -71,9 +63,9 @@ class Developer:
         self.role       = "Software Engineer"
         self.university = "HSTU, Dinajpur"
         self.portfolio  = "https://abin0x.netlify.app"
-        self.stack      = ["Python", "Django", "DRF", "JavaScript", "PostgreSQL"]
+        self.stack      = ["Python", "Django", "DRF", "Next.js", "PostgreSQL", "Supabase"]
         self.focus      = ["Web Development", "App Development", "REST APIs", "AI"]
-        self.learning   = ["System Design", "AI Agents", "RAG & MCP", "DSA"]
+        self.learning   = ["System Design", "LLM APIs & AI Agents", "RAG & MCP", "DSA"]
 
     def say_hello(self):
         return f"Hi, I am {self.name}. Let's build something together!"
@@ -87,6 +79,14 @@ if __name__ == "__main__":
 
 ---
 
+## <samp>&gt;&nbsp;Right Now</samp>
+
+<p align="center">
+  <img src="assets/now.svg" width="100%" alt="Building abin0x.netlify.app with Next.js, Supabase and Tailwind CSS. Learning system design, LLM APIs and AI agents, RAG and MCP. Exploring AI and agentic development. Open to internships, freelance projects and collaboration. Based in Dinajpur, Bangladesh.">
+</p>
+
+---
+
 ## <samp>&gt;&nbsp;What I Do</samp>
 
 <table align="center">
@@ -94,25 +94,25 @@ if __name__ == "__main__":
 <td width="25%">
 
 ### 🌐
-**Web Development**
+**Web & App Development**
 
-Responsive, database-driven websites built with Django and modern front-end tooling.
-
-</td>
-<td width="25%">
-
-### 📱
-**App Development**
-
-Mobile applications backed by clean, well-documented REST APIs.
+Responsive, database-driven web apps with Django and Next.js, and mobile apps on top of them.
 
 </td>
 <td width="25%">
 
 ### 🔌
-**API Development**
+**APIs & Backends**
 
-Secure, versioned APIs with Django REST Framework and PostgreSQL.
+Secure, versioned REST APIs with Django REST Framework, PostgreSQL and Supabase.
+
+</td>
+<td width="25%">
+
+### 🤖
+**AI & Agents**
+
+Building with LLM APIs, AI agents, RAG and MCP, and researching where software is heading.
 
 </td>
 <td width="25%">
@@ -130,24 +130,26 @@ Daily practice on Codeforces and LeetCode with C++ and Python.
 
 ## <samp>&gt;&nbsp;Tech Stack</samp>
 
+<p align="center">
+  <img src="assets/orbit.svg" width="100%" alt="My tech stack in orbit. Core: Python, Django, Next.js, TypeScript, JavaScript. Data and UI: PostgreSQL, Supabase, MySQL, MongoDB, SQLite, Tailwind CSS, Bootstrap. Languages and tools: C, C++, Java, HTML, CSS, Git, GitHub, Linux, VS Code, Postman, Figma, Netlify, Vercel.">
+</p>
+
+<details>
+<summary><samp><b>&nbsp;📋 the same stack as a list</b></samp></summary>
+<br>
+
 <table align="center">
   <tr>
     <td align="right" width="130"><b>Languages</b></td>
-    <td><img src="https://skillicons.dev/icons?i=py,c,cpp,java,js,html,css&theme=dark" alt="Python, C, C++, Java, JavaScript, HTML, CSS"></td>
+    <td><img src="https://skillicons.dev/icons?i=py,c,cpp,java,js,ts,html,css&theme=dark" alt="Python, C, C++, Java, JavaScript, TypeScript, HTML, CSS"></td>
   </tr>
   <tr>
     <td align="right"><b>Frameworks</b></td>
     <td>
-      <img src="https://skillicons.dev/icons?i=django,bootstrap&theme=dark" alt="Django, Bootstrap">
+      <img src="https://skillicons.dev/icons?i=django,nextjs,tailwind,bootstrap&theme=dark" alt="Django, Next.js, Tailwind CSS, Bootstrap">
       <img src="https://img.shields.io/badge/Django_REST-092E20?style=for-the-badge&logo=django&logoColor=44B78B" alt="Django REST Framework">
     </td>
   </tr>
-  <!-- 📱 App Development — swap in whatever you actually use, then delete this comment
-  <tr>
-    <td align="right"><b>App Dev</b></td>
-    <td><img src="https://skillicons.dev/icons?i=flutter,dart,kotlin,androidstudio&theme=dark" alt="Flutter, Dart, Kotlin, Android Studio"></td>
-  </tr>
-  -->
   <tr>
     <td align="right"><b>Databases</b></td>
     <td><img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,sqlite,supabase&theme=dark" alt="PostgreSQL, MySQL, MongoDB, SQLite, Supabase"></td>
@@ -167,23 +169,27 @@ Daily practice on Codeforces and LeetCode with C++ and Python.
   </tr>
 </table>
 
+</details>
+
 ---
 
-## <samp>&gt;&nbsp;GitHub Statistics</samp>
+## <samp>&gt;&nbsp;GitHub Activity</samp>
 
 <!--
-  Self-hosted on purpose. The usual third-party cards
-  (github-readme-stats / activity-graph / profile-trophy) run on free Vercel
-  accounts that regularly answer 402 or 503, and then this section shows
-  nothing but broken images. This card is generated into the repo instead:
-
-      python assets/stats.py          refresh the numbers
-      GITHUB_TOKEN=xxx python assets/stats.py    one-shot full refresh
-
-  Data: api.github.com + github-contributions-api.jogruber.de
+  Self-hosted on purpose. The usual third-party cards (github-readme-stats and friends)
+  run on free Vercel accounts that often answer 402 or 503. Refresh with:
+      python assets/stats.py
 -->
 <p align="center">
   <img src="assets/stats-card.svg" width="100%" alt="GitHub statistics for abin0x">
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abin0x/abin0x/output/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/abin0x/abin0x/output/github-snake.svg">
+    <img alt="A snake eating my GitHub contributions" src="https://raw.githubusercontent.com/abin0x/abin0x/output/github-snake-dark.svg" width="100%">
+  </picture>
 </p>
 
 ---
@@ -215,7 +221,7 @@ A learning platform where students enroll in courses, track progress and access 
 
 `Django` `Python` `JavaScript` `HTML` `CSS`
 
-<!-- TODO: point this at the Online Course School demo — it currently reuses the library link -->
+<!-- TODO: point this at the Online Course School demo; it currently reuses the library link -->
 <a href="https://library0x.netlify.app/"><img src="https://img.shields.io/badge/Live_Demo-22D3EE?style=for-the-badge&logo=netlify&logoColor=05070E" alt="Live demo"></a>
 
 </td>
@@ -238,9 +244,9 @@ Student registration, course enrollment and academic performance tracking for a 
 
 ### 💼 Personal Portfolio
 
-<img src="https://i.ibb.co.com/tYJvqf5/e7cc6e94-73c5-4a20-9098-714896954c76.png" width="100%" alt="Personal Portfolio">
+<img src="https://abin0x.netlify.app/opengraph-image" width="100%" alt="abin0x.netlify.app, the portfolio of Mahmudul Hasan Abin">
 
-My portfolio and blog: projects, research, achievements, a bilingual (English and Bangla) blog and a private admin dashboard to manage it all.
+My portfolio and blog: projects, research, achievements, a bilingual (English and Bangla) blog and a private admin dashboard with visitor analytics.
 
 `Next.js` `TypeScript` `Tailwind CSS` `Supabase`
 
@@ -285,15 +291,6 @@ Portfolio and contact form: **[abin0x.netlify.app](https://abin0x.netlify.app)**
 
 </div>
 
-<!--
-  Optional — contribution snake animation.
-  Add the workflow from https://github.com/Platane/snk to .github/workflows/snake.yml,
-  run it once, then uncomment:
-
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abin0x/abin0x/output/github-snake-dark.svg">
-    <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/abin0x/abin0x/output/github-snake.svg">
-  </picture>
--->
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,50:22D3EE,100:38BDF8&height=120&section=footer&text=Thanks%20for%20visiting!&fontColor=FFFFFF&fontSize=22&fontAlignY=70&desc=%E2%AD%90%20Star%20a%20repo%20if%20it%20helped%20you&descAlignY=88&descSize=12" width="100%">
+<p align="center">
+  <img src="assets/footer.svg" width="100%" alt="Thanks for visiting! Let's build something together at abin0x.netlify.app">
+</p>

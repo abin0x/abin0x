@@ -25,12 +25,12 @@ VIOLET, CYAN = "#7C3AED", "#06B6D4"
 
 NAME = ["Mahmudul Hasan", "Abin"]
 BIO = [
-    "Hi, I'm Mahmudul Hasan Abin, a Junior Python Developer from Hajee",
-    "Mohammad Danesh Science and Technology University, Dinajpur. I have a",
-    "strong foundation in Python, Django, C and C++, along with web",
-    "technologies including HTML, CSS and JavaScript, and I also build",
-    "mobile apps. I am passionate about writing clean, efficient code and",
-    "continuously learning new technologies.",
+    "Hi, I'm Mahmudul Hasan Abin, a Software Engineer and CSE student at",
+    "Hajee Mohammad Danesh Science and Technology University, Dinajpur.",
+    "I build web applications and backends with Python, Django and Django",
+    "REST Framework, with a strong base in C, C++ and DSA. Right now I am",
+    "exploring AI and agentic development: LLM APIs, AI agents, RAG and",
+    "MCP. I love writing clean code and learning something new every day.",
 ]
 SOCIALS = [
     ("instagram", "abin0x"),
@@ -47,7 +47,7 @@ CHAR_W = 9.05           # rough advance width, used for reveal timing
 CX, CY, R = 900, 300, 142   # portrait circle
 
 # ── portrait: embedded JPEG + matching dot-matrix layer ───────────────────
-CROP = (140, 10, 460, 330)
+CROP = (40, 0, 420, 380)   # profile-src.png is the 460x460 GitHub photo
 photo = Image.open(SRC).convert("RGB").crop(CROP).resize((420, 420), Image.LANCZOS)
 buf = io.BytesIO()
 photo.save(buf, "JPEG", quality=82, optimize=True)
@@ -130,8 +130,8 @@ socials = "".join(socials)
 divider_begin = socials_begin - 0.35
 name_w = 680
 
-svg = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="Mahmudul Hasan Abin - Junior Python Developer">
-<title>Mahmudul Hasan Abin — Junior Python Developer</title>
+svg = f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-label="Mahmudul Hasan Abin - Software Engineer">
+<title>Mahmudul Hasan Abin, Software Engineer</title>
 <defs>
   <clipPath id="card"><rect width="{W}" height="{H}" rx="26"/></clipPath>
   <clipPath id="ring"><circle cx="{CX}" cy="{CY}" r="{R}"/></clipPath>

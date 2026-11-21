@@ -45,7 +45,11 @@ CHAR_W = ART_FS * 0.60
 # backdrop is dropped, and Floyd-Steinberg dithering gives flat areas texture.
 RAMP = " .',:;!|jkr*+=#%@&$8MW"   # sparse -> dense; dark pixels get the dense end
 TONES = ["#00000000", "#8B96A3", "#A7B2BE", "#C9D1D9", "#E4EBF1", "#FFFFFF"]
-CROP = (192, 4, 382, 178)          # head and shoulders
+CROP = (60, 0, 390, 330)           # head and shoulders (profile-src.png is the 460x460 GitHub photo)
+# The studio backdrop is a smooth neutral near-black. Hair is just as dark but textured and the
+# suit is navy, so the backdrop is found by colour + smoothness. HEAD (fractions of the crop:
+# centre x, centre y, radius x, radius y) guards the hair above the forehead from leaks.
+HEAD = (0.50, 0.29, 0.21, 0.19)
 COLS = 110
 
 
@@ -56,26 +60,44 @@ def ascii_art():
     sm = im.resize((COLS, rows), Image.LANCZOS)
     grey = ImageEnhance.Contrast(ImageOps.autocontrast(sm.convert("L"), cutoff=1)).enhance(1.15)
 
-    # The backdrop is blue or near-black, but so is his hair -- so flood the
-    # backdrop in from the borders and keep anything it cannot reach.
-    def backdrop_like(x, y):
-        r, g, b = sm.getpixel((x, y))
-        return (b - max(r, g) > 14) or ((r + g + b) / 3 < 46)
+    # Find the backdrop at full resolution: flood in from the borders through
+    # dark, neutral, smooth pixels (hair has strands, the suit is blue), then
+    # shrink that mask to the character grid.
+    raw = Image.open(SRC).convert("RGB").crop(CROP)    # unsharpened: sharpening lifts backdrop noise
+    W0, H0 = raw.size
+    rgb = raw.load()
+    edge = raw.convert("L").filter(ImageFilter.FIND_EDGES).filter(ImageFilter.BoxBlur(5)).load()
+    hx, hy, hrx, hry = HEAD
 
-    bg = [[False] * COLS for _ in range(rows)]
+    def backdrop_like(x, y):
+        if ((x / W0 - hx) / hrx) ** 2 + ((y / H0 - hy) / hry) ** 2 < 1:
+            return False
+        r, g, b = rgb[x, y]
+        # the edge filter misreads the outermost pixels, so trust colour alone there
+        smooth = edge[x, y] < 9 or not (6 <= x < W0 - 6 and 6 <= y < H0 - 6)
+        return (r + g + b) / 3 < 48 and b - max(r, g) < 12 and smooth
+
+    full = Image.new("L", (W0, H0), 0)
+    fm = full.load()
     queue = deque()
-    edges = ([(x, 0) for x in range(COLS)] + [(x, rows - 1) for x in range(COLS)]
-             + [(0, y) for y in range(rows)] + [(COLS - 1, y) for y in range(rows)])
-    for x, y in edges:
-        if not bg[y][x] and backdrop_like(x, y):
-            bg[y][x] = True
-            queue.append((x, y))
+    for x in range(W0):
+        for y in (0, H0 - 1):
+            if fm[x, y] == 0 and backdrop_like(x, y):
+                fm[x, y] = 255
+                queue.append((x, y))
+    for y in range(H0):
+        for x in (0, W0 - 1):
+            if fm[x, y] == 0 and backdrop_like(x, y):
+                fm[x, y] = 255
+                queue.append((x, y))
     while queue:
         x, y = queue.popleft()
         for nx, ny in ((x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)):
-            if 0 <= nx < COLS and 0 <= ny < rows and not bg[ny][nx] and backdrop_like(nx, ny):
-                bg[ny][nx] = True
+            if 0 <= nx < W0 and 0 <= ny < H0 and fm[nx, ny] == 0 and backdrop_like(nx, ny):
+                fm[nx, ny] = 255
                 queue.append((nx, ny))
+    small_mask = full.resize((COLS, rows), Image.BOX)
+    bg = [[small_mask.getpixel((x, y)) > 140 for x in range(COLS)] for y in range(rows)]
 
     # de-speckle: lone cells the flood fill could not reach are backdrop too
     for threshold in (4, 3, 3):
@@ -169,6 +191,7 @@ top_langs = ", ".join("%s %d" % (n, c) for n, c in gh["langs"][:3])
 ROWS = [
     ("OS", "Windows 11, Ubuntu Linux", VALUE),
     ("Uptime", uptime, VALUE),
+    ("Role", "Software Engineer", VALUE),
     ("Host", "HSTU, Dinajpur, Bangladesh", VALUE),
     ("Kernel", "Django (Python Web Framework)", VALUE),
     ("IDE", "VS Code, PyCharm", VALUE),
@@ -179,7 +202,8 @@ ROWS = [
     ("", "", ""),
     ("Stack.Backend", "Django, Django REST Framework", VALUE),
     ("Stack.Database", "PostgreSQL, MySQL, MongoDB, SQLite", VALUE),
-    ("Hobbies.Software", "Web Dev, App Dev, Problem Solving", VALUE),
+    ("Stack.AI", "LLM APIs, AI agents, RAG, MCP", VALUE),
+    ("Hobbies.Software", "Web Dev, App Dev, AI, Problem Solving", VALUE),
     ("§", "Contact", ""),
     ("Portfolio", "abin0x.netlify.app", PURPLE),
     ("LinkedIn", "abin0x", PURPLE),
