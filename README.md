@@ -7,11 +7,11 @@
 -->
 
 <p align="center">
-  <img src="assets/hero.svg" alt="Mahmudul Hasan Abin — Python, Django, Web &amp; App Developer" width="100%">
+  <img src="assets/hero.svg" alt="Mahmudul Hasan Abin, Software Engineer: Python, Django, Web &amp; App Developer" width="100%">
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=900&color=22D3EE&center=true&vCenter=true&width=580&height=40&lines=Junior+Python+Developer;Django+%26+Django+REST+Framework;Full-Stack+Web+Developer;App+Developer;Competitive+Programmer;Always+learning%2C+always+building" alt="What I do">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=900&color=22D3EE&center=true&vCenter=true&width=580&height=40&lines=Software+Engineer;Python+%26+Django+Developer;AI+Enthusiast+%26+Researcher;Full-Stack+Web+%26+App+Developer;Competitive+Programmer;Always+learning%2C+always+building" alt="What I do">
 </p>
 
 <p align="center">
@@ -44,17 +44,21 @@
     assets/avatar-dots.svg    just the portrait as a dot matrix  (python assets/dotify.py)
 -->
 
-I'm **Mahmudul Hasan Abin** — a Junior Python Developer studying at
-**Hajee Mohammad Danesh Science and Technology University**, Dinajpur.
+I'm **Mahmudul Hasan Abin** (`abin0x`), a **Software Engineer** and Computer Science & Engineering student at
+**Hajee Mohammad Danesh Science and Technology University (HSTU)**, Dinajpur, Bangladesh.
+I build intelligent software with Python & Django, explore AI and agentic development, and research what's next.
 
-- 🐍 &nbsp;I build web applications with **Python, Django & Django REST Framework**
-- 📱 &nbsp;I also work on **App Development** — building mobile apps and the APIs behind them
+🌐 &nbsp;Portfolio, projects, research and blog: **[abin0x.netlify.app](https://abin0x.netlify.app)**
+
+- 🐍 &nbsp;I build web applications and backends with **Python, Django & Django REST Framework**
+- 🤖 &nbsp;Exploring **AI and agentic development**, and researching the future of software engineering
+- 📱 &nbsp;I also work on **App Development**: mobile apps and the APIs behind them
 - 🧩 &nbsp;Strong foundation in **C, C++ and Data Structures & Algorithms**
-- 🎨 &nbsp;Comfortable across the stack — **HTML, CSS, JavaScript, Bootstrap**
+- 🎨 &nbsp;Comfortable across the stack: **HTML, CSS, JavaScript, Bootstrap**
 - 🗄️ &nbsp;Work daily with **PostgreSQL, MySQL, MongoDB, Supabase**
 - 🏆 &nbsp;Solving problems on **Codeforces** and **LeetCode** as `abin0x`
-- 🌱 &nbsp;Currently going deeper into **REST APIs, system design and AI**
-- 💬 &nbsp;Ask me about **Python, Django or anything web & app**
+- 🌱 &nbsp;Currently learning **system design, LLM APIs & AI agents, RAG & MCP**
+- 💬 &nbsp;Ask me about **Python, Django, AI or anything web & app**
 
 <details>
 <summary><samp><b>&nbsp;⚡ abin0x.py — run me</b></samp></summary>
@@ -64,11 +68,12 @@ class Developer:
     def __init__(self):
         self.name       = "Mahmudul Hasan Abin"
         self.handle     = "abin0x"
-        self.role       = "Junior Python Developer"
+        self.role       = "Software Engineer"
         self.university = "HSTU, Dinajpur"
+        self.portfolio  = "https://abin0x.netlify.app"
         self.stack      = ["Python", "Django", "DRF", "JavaScript", "PostgreSQL"]
-        self.focus      = ["Web Development", "App Development", "REST APIs"]
-        self.learning   = ["System Design", "AI Engineering", "DSA"]
+        self.focus      = ["Web Development", "App Development", "REST APIs", "AI"]
+        self.learning   = ["System Design", "AI Agents", "RAG & MCP", "DSA"]
 
     def say_hello(self):
         return f"Hi, I am {self.name}. Let's build something together!"
@@ -235,9 +240,9 @@ Student registration, course enrollment and academic performance tracking for a 
 
 <img src="https://i.ibb.co.com/tYJvqf5/e7cc6e94-73c5-4a20-9098-714896954c76.png" width="100%" alt="Personal Portfolio">
 
-My portfolio — a fully responsive, animated showcase of my work, skills and contact details.
+My portfolio and blog: projects, research, achievements, a bilingual (English and Bangla) blog and a private admin dashboard to manage it all.
 
-`JavaScript` `HTML` `CSS`
+`Next.js` `TypeScript` `Tailwind CSS` `Supabase`
 
 <a href="https://abin0x.netlify.app/"><img src="https://img.shields.io/badge/Live_Demo-22D3EE?style=for-the-badge&logo=netlify&logoColor=05070E" alt="Live demo"></a>
 
@@ -267,7 +272,9 @@ My portfolio — a fully responsive, animated showcase of my work, skills and co
 
 <div align="center">
 
-**Open to internships, freelance work and collaboration on Python / Django and app projects.**
+**Open to internships, freelance work and collaboration on Python / Django, AI and app projects.**
+
+Portfolio and contact form: **[abin0x.netlify.app](https://abin0x.netlify.app)**
 
 <a href="https://www.linkedin.com/in/MahmudulHasanAbin"><img src="https://img.shields.io/badge/Message_me_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 <a href="https://bento.me/abin0x"><img src="https://img.shields.io/badge/All_my_links-768CFF?style=for-the-badge&logo=bento&logoColor=white" alt="Bento"></a>
