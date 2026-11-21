@@ -34,7 +34,7 @@ BIO = [
 ]
 SOCIALS = [
     ("instagram", "abin0x"),
-    ("linkedin", "MahmudulHasanAbin"),
+    ("linkedin", "abin0x"),
     ("x", "abin0x"),
     ("github", "abin0x"),
 ]

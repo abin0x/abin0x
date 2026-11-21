@@ -182,7 +182,7 @@ ROWS = [
     ("Hobbies.Software", "Web Dev, App Dev, Problem Solving", VALUE),
     ("§", "Contact", ""),
     ("Portfolio", "abin0x.netlify.app", PURPLE),
-    ("LinkedIn", "MahmudulHasanAbin", PURPLE),
+    ("LinkedIn", "abin0x", PURPLE),
     ("GitHub", "abin0x", PURPLE),
     ("X", "abin0x", PURPLE),
     ("Instagram", "abin0x", PURPLE),

@@ -16,7 +16,7 @@
 
 <p align="center">
   <a href="https://abin0x.netlify.app"><img src="https://img.shields.io/badge/Portfolio-05070E?style=for-the-badge&logo=googlechrome&logoColor=22D3EE&labelColor=05070E" alt="Portfolio"></a>
-  <a href="https://www.linkedin.com/in/MahmudulHasanAbin"><img src="https://img.shields.io/badge/LinkedIn-05070E?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=05070E" alt="LinkedIn"></a>
+  <a href="https://www.linkedin.com/in/abin0x"><img src="https://img.shields.io/badge/LinkedIn-05070E?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=05070E" alt="LinkedIn"></a>
   <a href="https://twitter.com/abin0x"><img src="https://img.shields.io/badge/X-05070E?style=for-the-badge&logo=x&logoColor=FFFFFF&labelColor=05070E" alt="X"></a>
   <a href="https://instagram.com/abin0x"><img src="https://img.shields.io/badge/Instagram-05070E?style=for-the-badge&logo=instagram&logoColor=E4405F&labelColor=05070E" alt="Instagram"></a>
   <a href="https://youtube.com/@abin0x"><img src="https://img.shields.io/badge/YouTube-05070E?style=for-the-badge&logo=youtube&logoColor=FF0000&labelColor=05070E" alt="YouTube"></a>
@@ -276,7 +276,7 @@ My portfolio and blog: projects, research, achievements, a bilingual (English an
 
 Portfolio and contact form: **[abin0x.netlify.app](https://abin0x.netlify.app)**
 
-<a href="https://www.linkedin.com/in/MahmudulHasanAbin"><img src="https://img.shields.io/badge/Message_me_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="https://www.linkedin.com/in/abin0x"><img src="https://img.shields.io/badge/Message_me_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 <a href="https://bento.me/abin0x"><img src="https://img.shields.io/badge/All_my_links-768CFF?style=for-the-badge&logo=bento&logoColor=white" alt="Bento"></a>
 
 <br><br>
