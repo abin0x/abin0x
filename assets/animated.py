@@ -1,25 +1,20 @@
 """Animated cards for the profile README: hero.svg, now.svg, orbit.svg, footer.svg.
 
-    python assets/animated.py        (needs Pillow; network once for the tech icons)
+    python assets/animated.py        (network once for the tech icons)
 
-The photo comes from profile-src.png. Tech icons come from skillicons.dev and are
-cached in skillicons.json, so later runs work offline. Everything moves with plain
+Tech icons come from skillicons.dev and are cached in skillicons.json, so later runs work offline. Everything moves with plain
 SVG animation and CSS, which GitHub renders inside <img> tags (no scripts, no web
 fonts). The CSS animations stop for visitors who ask for reduced motion; the SMIL
 ones (the hero's role ticker, the orbits) keep going, since CSS cannot pause them.
 """
 import base64
-import io
 import json
 import math
 import os
 import random
 import urllib.request
 
-from PIL import Image
-
 HERE = os.path.dirname(os.path.abspath(__file__))
-SRC = os.path.join(HERE, "profile-src.png")
 ICON_CACHE = os.path.join(HERE, "skillicons.json")
 
 # ── theme (matches the neofetch and stats cards) ─────────────────────────────
@@ -74,14 +69,115 @@ def esc(s):
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-def photo_uri(size=320):
-    im = Image.open(SRC).convert("RGB")
-    w, h = im.size
-    side = min(w, h)
-    im = im.crop(((w - side) // 2, 0, (w - side) // 2 + side, side)).resize((size, size), Image.LANCZOS)
-    buf = io.BytesIO()
-    im.save(buf, "JPEG", quality=86, optimize=True, progressive=True)
-    return "data:image/jpeg;base64," + base64.b64encode(buf.getvalue()).decode()
+# The role ticker and the pictures inside the hexagon share one clock: role i fades in at
+# ROLE_START + i * ROLE_STEP, holds about 2 s and leaves, and the cycle repeats.
+ROLE_START, ROLE_STEP = 1.3, 2.5
+ROLE_KEYS = "0;.05;.22;.27;1"           # in, hold, out, gone (fractions of one cycle)
+DRAW_KEYS = "0;.09;.22;.27;1"           # strokes draw in a little slower than the fade
+
+
+def role_timing(i):
+    return 'dur="%gs" begin="%.1fs" repeatCount="indefinite"' % (ROLE_STEP * len(ROLES), ROLE_START + i * ROLE_STEP)
+
+
+def draw_in(t):
+    """Strokes with pathLength="100" draw themselves each time their role comes round."""
+    return '<animate attributeName="stroke-dashoffset" values="100;0;0;0;0" keyTimes="%s" %s/>' % (DRAW_KEYS, t)
+
+
+def art_code(t):
+    """Software Engineer: </>"""
+    return "".join('<path d="%s" fill="none" stroke="url(#mono)" stroke-width="9" stroke-linecap="round" '
+                   'stroke-linejoin="round" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100">%s</path>'
+                   % (d, draw_in(t)) for d in ("M-20 -26 L-46 0 L-20 26", "M20 -26 L46 0 L20 26", "M9 -36 L-9 36"))
+
+
+def art_network(t):
+    """AI Enthusiast: a small neural network with signals running through it."""
+    left, mid, right = [(-42, -30), (-42, 0), (-42, 30)], [(0, -39), (0, -13), (0, 13), (0, 39)], [(42, -15), (42, 15)]
+    out = []
+    for a, b in [(a, b) for a in left for b in mid] + [(a, b) for a in mid for b in right]:
+        out.append('<line x1="%d" y1="%d" x2="%d" y2="%d" stroke="#3B4A63" stroke-width="1.4" pathLength="100" '
+                   'stroke-dasharray="100" stroke-dashoffset="100">%s</line>' % (a + b + (draw_in(t),)))
+    for layer, colour in ((left, CYAN), (mid, SKY), (right, PURPLE)):
+        for x, y in layer:
+            out.append('<circle cx="%d" cy="%d" r="6.5" fill="#0B1222" stroke="%s" stroke-width="2.6"/>' % (x, y, colour))
+    for k, route in enumerate(("M-42 -30 L0 -13 L42 -15", "M-42 0 L0 13 L42 15",
+                               "M-42 30 L0 39 L42 15", "M-42 0 L0 -39 L42 -15")):
+        out.append('<circle r="3" fill="#FFFFFF"><animateMotion path="%s" dur="1.3s" begin="%.2fs" '
+                   'repeatCount="indefinite"/></circle>' % (route, k * 0.32))
+    return "".join(out)
+
+
+def art_atom(t):
+    """Researcher: an atom, electrons on three orbits."""
+    orbit = "M-48 0 A48 17 0 1 1 48 0 A48 17 0 1 1 -48 0"
+    out = []
+    for angle, speed in ((0, 1.6), (60, 2.1), (120, 2.6)):
+        out.append('<g transform="rotate(%d)"><ellipse rx="48" ry="17" fill="none" stroke="url(#mono)" '
+                   'stroke-width="3" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100">%s</ellipse>'
+                   '<circle r="4.5" fill="%s"><animateMotion path="%s" dur="%ss" repeatCount="indefinite"/></circle></g>'
+                   % (angle, draw_in(t), CYAN, orbit, speed))
+    out.append('<circle r="8" fill="none" stroke="%s" stroke-width="2">'
+               '<animate attributeName="r" values="8;16" dur="1.4s" repeatCount="indefinite"/>'
+               '<animate attributeName="opacity" values=".8;0" dur="1.4s" repeatCount="indefinite"/></circle>'
+               '<circle r="8" fill="%s"/>' % (VIOLET, PURPLE))
+    return "".join(out)
+
+
+def art_cube(t):
+    """Builder: an isometric cube whose three faces fly in and lock together."""
+    faces = (("M0 -46 L40 -23 L0 0 L-40 -23 Z", CYAN, ".9", "0 -34", .02),
+             ("M-40 -23 L0 0 L0 46 L-40 23 Z", SKY, ".55", "-30 18", .05),
+             ("M40 -23 L0 0 L0 46 L40 23 Z", PURPLE, ".75", "30 18", .08))
+    return "".join('<path d="%s" fill="%s" fill-opacity="%s" stroke="%s" stroke-width="2.5" stroke-linejoin="round">'
+                   '<animateTransform attributeName="transform" type="translate" values="%s;%s;0 0;0 0;0 0" '
+                   'keyTimes="0;%g;%g;.27;1" %s/></path>' % (d, c, o, BG, off, off, s, s + .06, t)
+                   for d, c, o, off, s in faces)
+
+
+ROLE_ART = {"Software Engineer": art_code, "AI Enthusiast": art_network, "Researcher": art_atom, "Builder": art_cube}
+
+
+def emblem(cx, cy, R):
+    """Inside the ring: a hexagon that draws itself in, with a comet running round its edge
+    (each corner flashes as it passes), and inside it a picture that changes with the role
+    beside it: </>, a neural network, an atom, a cube that builds itself."""
+    rh, lap, tail = 84, 4.0, 46
+    pts = [(cx + rh * math.cos(math.radians(a)), cy + rh * math.sin(math.radians(a)))
+           for a in (-90, -30, 30, 90, 150, 210)]
+    hexd = "M" + " L".join("%.1f %.1f" % p for p in pts) + " Z"
+    per = 6 * rh
+    out = ['<circle cx="{cx}" cy="{cy}" r="{r}" fill="#0B1020" stroke="{l}" stroke-width="1.5"/>'
+           '<circle cx="{cx}" cy="{cy}" r="{r}" fill="url(#core)"/>'
+           '<path d="{h}" fill="#0B1222" stroke="{l}" stroke-width="2" stroke-linejoin="round"/>'
+           '<path d="{h}" fill="none" stroke="url(#mono)" stroke-width="3" stroke-linejoin="round" '
+           'stroke-dasharray="{p}" stroke-dashoffset="{p}">'
+           '<animate attributeName="stroke-dashoffset" values="{p};0" begin=".2s" dur="1.4s" fill="freeze" '
+           'calcMode="spline" keyTimes="0;1" keySplines=".4 0 .2 1"/></path>'
+           '<g opacity="0"><set attributeName="opacity" to="1" begin="1.6s"/>'
+           '<path d="{h}" fill="none" stroke="{c}" stroke-width="4" stroke-linecap="round" filter="url(#glow)" '
+           'stroke-dasharray="{tail} {rest}">'
+           '<animate attributeName="stroke-dashoffset" values="0;-{p}" begin="1.6s" dur="{lap}s" '
+           'repeatCount="indefinite"/></path></g>'
+           .format(cx=cx, cy=cy, r=R, l=LINE, h=hexd, p=per, c=CYAN, tail=tail, rest=per - tail, lap=lap)]
+    for k, (x, y) in enumerate(pts):
+        when = 1.6 + ((k * rh - tail) % per) / per * lap
+        out.append('<circle cx="{x:.1f}" cy="{y:.1f}" r="3.5" fill="{c}" opacity=".25">'
+                   '<animate attributeName="opacity" values=".25;1;.25;.25" keyTimes="0;.06;.3;1" '
+                   'dur="{d}s" begin="{w:.2f}s" repeatCount="indefinite"/></circle>'
+                   .format(x=x, y=y, c=CYAN, d=lap, w=when))
+    for i, role in enumerate(ROLES):
+        art = ROLE_ART.get(role)
+        if not art:
+            continue
+        t = role_timing(i)
+        out.append('<g transform="translate({cx} {cy})"><g opacity="0">'
+                   '<animate attributeName="opacity" values="0;1;1;0;0" keyTimes="{k}" {t}/>'
+                   '<g filter="url(#glow)"><animateTransform attributeName="transform" type="scale" '
+                   'values=".72;1;1;1.12;1.12" keyTimes="{k}" {t}/>{art}</g></g></g>'
+                   .format(cx=cx, cy=cy, k=ROLE_KEYS, t=t, art=art(t)))
+    return "".join(out)
 
 
 def load_icons(names):
@@ -164,7 +260,15 @@ def hero():
         '<stop offset="1" stop-color="%s" stop-opacity="0"/></radialGradient>' % (CYAN, CYAN),
         '<radialGradient id="glowB"><stop offset="0" stop-color="%s" stop-opacity=".26"/>'
         '<stop offset="1" stop-color="%s" stop-opacity="0"/></radialGradient>' % (PURPLE, PURPLE),
-        '<clipPath id="face"><circle cx="%d" cy="%d" r="%d"/></clipPath>' % (cx, cy, R),
+        '<linearGradient id="mono" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="%s"/>'
+        '<stop offset=".45" stop-color="%s"/><stop offset="1" stop-color="%s"/>'
+        '<animateTransform attributeName="gradientTransform" type="rotate" values="0 .5 .5;360 .5 .5" '
+        'dur="7s" repeatCount="indefinite"/></linearGradient>' % (CYAN, SKY, PURPLE),
+        '<radialGradient id="core"><stop offset="0" stop-color="%s" stop-opacity=".28"/>'
+        '<stop offset=".7" stop-color="%s" stop-opacity=".06"/><stop offset="1" stop-color="%s" stop-opacity="0"/>'
+        '</radialGradient>' % (PURPLE, CYAN, CYAN),
+        '<filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="4" result="b"/>'
+        '<feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>',
         '<clipPath id="who"><rect x="%d" y="100" width="0" height="40">'
         '<animate attributeName="width" from="0" to="230" begin=".3s" dur=".9s" fill="freeze"/></rect></clipPath>' % (x0 - 4),
     ]
@@ -187,7 +291,8 @@ def hero():
     b.append('<circle class="glowB" cx="1010" cy="380" r="340" fill="url(#glowB)"/>')
     b.append(title_bar(W, "abin0x@github: ~", status_pill(W, "open to internships & freelance", GREEN)))
 
-    # portrait with rings, a sonar pulse and an online dot
+    # the abin0x mark inside spinning rings and a sonar pulse
+    # (the photo already sits next to the README as the GitHub avatar)
     b.append('<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{c}" stroke-width="2" opacity="0">'
              '<animate attributeName="r" values="{r};{r2}" dur="3.2s" repeatCount="indefinite"/>'
              '<animate attributeName="opacity" values=".5;0" dur="3.2s" repeatCount="indefinite"/></circle>'
@@ -197,16 +302,7 @@ def hero():
     b.append('<g class="ring1"><circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="url(#ring)" stroke-width="4" '
              'stroke-dasharray="170 34 46 34" stroke-linecap="round"/>'
              '<circle cx="{dx}" cy="{cy}" r="6.5" fill="{c}"/></g>'.format(cx=cx, cy=cy, r=R + 15, dx=cx + R + 15, c=CYAN))
-    b.append('<circle cx="{cx}" cy="{cy}" r="{r}" fill="#0B1020"/>'
-             '<image href="{img}" x="{x}" y="{y}" width="{s}" height="{s}" clip-path="url(#face)" '
-             'preserveAspectRatio="xMidYMid slice"/>'.format(cx=cx, cy=cy, r=R, img=photo_uri(),
-                                                              x=cx - R, y=cy - R, s=2 * R))
-    ox, oy = cx + int(R * 0.71), cy + int(R * 0.71)
-    b.append('<circle cx="{x}" cy="{y}" r="13" fill="{g}" opacity="0">'
-             '<animate attributeName="r" values="13;26" dur="2s" repeatCount="indefinite"/>'
-             '<animate attributeName="opacity" values=".6;0" dur="2s" repeatCount="indefinite"/></circle>'
-             '<circle cx="{x}" cy="{y}" r="13" fill="{g}" stroke="{bg}" stroke-width="5"/>'
-             .format(x=ox, y=oy, g=GREEN, bg=BG))
+    b.append(emblem(cx, cy, R))
 
     # right column: whoami, name, rule, cycling roles, chips
     b.append('<g clip-path="url(#who)" class="mono" font-size="22"><text x="{x}" y="128">'
@@ -219,15 +315,13 @@ def hero():
              '<line class="shine" x1="{x}" y1="230" x2="{xs}" y2="230" stroke="url(#shine)" stroke-width="3" '
              'stroke-linecap="round"/></g>'.format(x=x0, x2=x0 + 700, xs=x0 + 120))
     b.append('<text class="sans" x="{x}" y="290" font-size="32" font-weight="600" fill="{p}">›</text>'.format(x=x0, p=VIOLET))
-    # each role slides up, holds about 2 s, then leaves; one full cycle is len(ROLES) * 2.5 s
-    cycle = 2.5 * len(ROLES)
+    # each role slides up, holds about 2 s, then leaves (same clock as the pictures in the hexagon)
     for i, role in enumerate(ROLES):
-        b.append('<g opacity="0"><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;.05;.22;.27;1" '
-                 'dur="{d}s" begin="{s:.1f}s" repeatCount="indefinite"/>'
+        b.append('<g opacity="0"><animate attributeName="opacity" values="0;1;1;0;0" keyTimes="{k}" {tm}/>'
                  '<animateTransform attributeName="transform" type="translate" values="0 22;0 0;0 0;0 -22;0 -22" '
-                 'keyTimes="0;.05;.22;.27;1" dur="{d}s" begin="{s:.1f}s" repeatCount="indefinite"/>'
+                 'keyTimes="{k}" {tm}/>'
                  '<text class="sans" x="{x}" y="290" font-size="32" font-weight="600" fill="{t}">{r}</text></g>'
-                 .format(d=cycle, s=1.3 + i * 2.5, x=x0 + 30, t=TEXT, r=esc(role)))
+                 .format(k=ROLE_KEYS, tm=role_timing(i), x=x0 + 30, t=TEXT, r=esc(role)))
     x = x0
     for i, (label, colour) in enumerate(CHIPS):
         w = len(label) * 9.4 + 50
